@@ -54,7 +54,7 @@ titles_from_headings:
 #theme: minima
 
 #remote_theme: "jekyll/minima@v2.5.1"
-remote_theme: "jekyll/minima"
+remote_theme: "jekyll/minima@5283ae1"
 
 minima:
   skin: classic
