@@ -73,8 +73,8 @@ code. Thus
 \cup
 \\{s \in S \mid \iota \preceq C(s){:}1 \\},
 \\]
-where the $$:$$s denote concatenation and the $$\cup$$, note, is a
-disjoint union. Therefore, by induction, we have
+where the colon ($$:$$) denotes concatenation and the $$\cup$$, note,
+is a disjoint union. Therefore, by induction, we have
 \\[
 \LHS
 =    \sum_{
