@@ -7,7 +7,7 @@ author: Sori Lee
 # A proof of Kraft's inequality
 
 In coding theory, Kraft's inequality is a fundamental (in fact, characterising)
-property of prefix codes. The theorem iin fact generalises to uniquely decodable
+property of prefix codes. The theorem in fact generalises to uniquely decodable
 codes, in which case it goes by the name of Kraft-McMillan inequality. In what
 follow, I work out a proof of the inequality for prefix codes.
 
