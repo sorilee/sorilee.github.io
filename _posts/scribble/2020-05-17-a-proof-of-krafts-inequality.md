@@ -4,7 +4,7 @@ date: 2020-05-17 13:23 KST
 author: Sori Lee
 ---
 
-# Kraft's inequality
+# A proof of Kraft's inequality
 
 In coding theory, Kraft's inequality is a fundamental (in fact,
 characterising) property of prefix codes. The result generalises to
