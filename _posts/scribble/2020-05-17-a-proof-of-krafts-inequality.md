@@ -78,11 +78,11 @@ disjoint union. Therefore, by induction, we have
 \\[
 \LHS
 =    \sum_{
-       \substack{s \in S \\ \iota{:}0 \preceq C(s)}
+       \substack{s \in S \\\\ \iota{:}0 \preceq C(s)}
      } 2^{-\abs{C(s)}}
      +
      \sum_{
-       \substack{s \in S \\ \iota{:}1 \preceq C(s)}
+       \substack{s \in S \\\\ \iota{:}1 \preceq C(s)}
      } 2^{-\abs{C(s)}}
 \leq 2^{-(d+1)} + 2^{-(d+1)}
 =    2^{-d}
