@@ -36,8 +36,8 @@ For imaginational[^3] and notational simplicity, I'll just prove this
 for case $$\abs{T} = 2$$. The proof readily adapts to general
 $$\abs{T}$$.[^4]
 
-[^3]: For $|T| = 2$, $\im(C)$ is a binary tree, which I find easier to
-      visualise.
+[^3]: For $$\abs{T} = 2$$, $$\im(C)$$ is a binary tree, which I find
+      easier to visualise.
 
 [^4]: In fact, just replace every occurences of '$$2$$' by
       '$$\abs{T}$$'.
@@ -80,8 +80,8 @@ code. Thus
 \cup
 \\{s \in S \mid \iota \preceq C(s){:}1 \\},
 \\]
-where the colon ($$:$$) denotes concatenation and the union, note,
-is disjoint. Therefore, by induction, we have
+where the colon ($$:$$) denotes concatenation and wherein the union,
+note, is disjoint. Therefore, by induction, we have
 \\[
 \LHS
 =    \sum_{
