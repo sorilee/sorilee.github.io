@@ -23,7 +23,7 @@ function $$C\: S \to T^*$$ such that for $$s,s' \in S$$, if
 $$C(s) \preceq C(s')$$ then $$s = s'$$.[^1]
 
 [^1]: Here, $$T^*$$ is the Kleene star of $$T$$ (i.e. the set of
-      strings in $T$), and $$C(s) \preceq C(s')$$ denotes that
+      strings in $$T$$), and $$C(s) \preceq C(s')$$ denotes that
       $$C(s)$$ is an initial segment (or *prefix*) of $$C(s')$$.
 
 Let $$C\: S \to T^*$$ be a prefix code. Kraft's inequality states:
