@@ -45,7 +45,7 @@ Subcase 2: there is an $$s \in S$$ with $$\iota = C(s)$$. Since $$C$$ is a
 prefix code, $$s$$ is in fact the only element in $$S$$ with
 $$\iota \preceq C(s)$$. Therefore $$LHS = 2^{-\abs{C(s)}} = RHS$$, as is sufficient.
 
-Subcase 3: there are $$s \in S$$ with $$\iota \precneq C(s)$$. Note
+Subcase 3: there are $$s \in S$$ with $$\iota ⪱ C(s)$$. Note
 that this case is disjoint from Subcase 3, because $$C$$ is a prefix
 code. Thus
 \\[
