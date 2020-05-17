@@ -8,8 +8,7 @@ author: Sori Lee
 
 \$$
 \newcommand{\:}{\colon}
-$$
-**Definition.** Let $$S$$ and $$T$$ be finite sets (alphabets). A
+$$**Definition.** Let $$S$$ and $$T$$ be finite sets (alphabets). A
 *prefix code* is a function $$C\: S \to T^*$$ such that for
 $$s,s' \in S$$, if $$C(s) \preceq C(s')$$[^1] then $$s = s'$$.
 
