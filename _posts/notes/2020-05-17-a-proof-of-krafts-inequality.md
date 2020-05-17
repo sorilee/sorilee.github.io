@@ -50,7 +50,7 @@ statement.
 **Lemma.** Let $$d \geq 0$$ and $$\iota \in T^d$$. Then
 \\[ \sum_{\iota \preceq S(s)} 2^{-\abs{C(s)}} \leq 2^{-d}. \\]
 
-Note that the Theorem is a special case of the Lemma for
+Note that the Theorem is just a special case of the Lemma for
 $$\iota = ()$$.
 
 *Proof.* By reverse induction on $$d$$.
