@@ -33,20 +33,17 @@ Let $$C\: S \to T^*$$ be a prefix code. Kraft's inequality states:
 [^2]: There is a converse to this statement, which I'm not bothered
       with today.
 
-For imaginational[^3] and notational simplicity, I'll just prove this
-for case $$\abs{T} = 2$$. The proof readily adapts to general
-$$\abs{T}$$.[^4]
+I'll just prove this for case $$\abs{T} = 2$$, for imaginational[^3]
+and notational simplicity. The proof readily adapts to general
+$$\abs{T}$$.
 
 [^3]: For $$\abs{T} = 2$$, $$\im(C)$$ is a binary tree, which I find
       easier to visualise.
 
-[^4]: In fact, just replace every occurences of '$$2$$' by
-      '$$\abs{T}$$'.
+My strategy is a "stateful induction"[^4], manifested in the following
+statement.
 
-My strategy is a "stateful induction"[^5], manifested in the following
-statement. 
-
-[^5]: There must be a more established term for this, but it doesn't
+[^4]: There must be a more established term for this, but it doesn't
       occur to me now.
 
 **Lemma.** Let $$d \geq 0$$ and $$\iota \in T^d$$. Then
