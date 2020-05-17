@@ -19,31 +19,31 @@ $$s,s' \in S$$, if $$C(s) \preceq C(s')$$[^1] then $$s = s'$$.
 Let $$C\: S \to T^*$$ be a prefix code. Kraft's inequality states:
 
 **Theorem (Kraft's Inequality, the inequality part).**
-\\[ \sum_{s \in S} |T|^{-\abs{C(s)}} \leq 1. \\]
+\\[ \sum_{s \in S} \abs{T}^{-\abs{C(s)}} \leq 1. \\]
 
 For ostensive simplicity, I'll just prove this for case $$\abs{T} = 2$$. (The proof readily applies for general $$\abs{T}$$.)
 
-My approach is a "stateful induction"[^2], manifested as the following
+My approach is a "stateful induction"[^2], manifested in the following
 statement.
 
 [^2]: There must be a more established term for this, but it doesn't occur to me now.
 
 **Lemma.** Let $$d \geq 0$$. Let $$\iota \in T^d$$. Then
-\\[ \sum_{\iota \preceq S(s)} |T|^{-|C(s)|} \leq 1. \]]
+\\[ \sum_{\iota \preceq S(s)} \abs{T}^{-\abs{C(s)}} \leq 1. \]]
 
 *Proof.* By reverse induction on $$d$$.
 
-Case $$d > \max_{s \in S} |C(s)|$$. Then $$\text{LHS} = 0 < \text{RHS}$$, as is sufficient.
+Case $$d > \max_{s \in S} \abs{C(s)}$$. Then $$\text{LHS} = 0 < \text{RHS}$$, as is sufficient.
 
-Case $$d \leq \max_{s \in S} |C(s)|$$. I'll analyse this case into three
-exhaustive subcases.
+Case $$d \leq \max_{s \in S} \abs{C(s)}$$. I'll analyse this case into
+three exhaustive subcases.
 
 Subcase 1: there is no $$s \in S$$ with $$\iota \preceq C(s)$$. Then
 $$LHS = 0 < RHS$$, as is sufficient.
 
 Subcase 2: there is an $$s \in S$$ with $$\iota = C(s)$$. Since $$C$$ is a
 prefix code, $$s$$ is in fact the only element in $$S$$ with
-$$\iota \preceq C(s)$$. Therefore $$LHS = 2^{-|C(s)} = RHS$$, as is sufficient.
+$$\iota \preceq C(s)$$. Therefore $$LHS = 2^{-\abs{C(s)}} = RHS$$, as is sufficient.
 
 Subcase 3: there are $$s \in S$$ with $$\iota \precneq C(s)$$. Note
 that this case is disjoint from Subcase 3, because $$C$$ is a prefix
@@ -59,10 +59,10 @@ where the $$\cup$$ is a disjoint union.
 Therefore, by induction, we have
 \\[
 \text{LHS}
-=    sum_{s \in S, \iota{:}0 \preceq C(s)} 2^{-|C(s)|} +
-     sum_{s \in S, \iota{:}1 \preceq C(s)} 2^{-|C(s)|}
+=    sum_{s \in S, \iota{:}0 \preceq C(s)} 2^{-\abs{C(s)}} +
+     sum_{s \in S, \iota{:}1 \preceq C(s)} 2^{-\abs{C(s)}}
 \leq 2^{-(d+1)} + 2^{-(d+1)}
 =    2^{-d}
 =    \text{RHS}.
 \\]
-This completes the proof. □
+This completes the proof. ∎
