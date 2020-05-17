@@ -9,11 +9,12 @@ author: Sori Lee
 \\(
 \newcommand{\:}{\colon}
 \\)
-
 **Definition.** Let $$S$$ and $$T$$ be finite sets (alphabets). A *prefix code*
 is a function $$C\: S \to T^*$$ such that for $$s,s' \in S$$, if
-$$C(s) \preceq C(s')$$ (this notation means: $$C(s)$$ is an initial segment of
-$$C(s')$$) then $$s = s'$$.
+$$C(s) \preceq C(s')$$[^1] then $$s = s'$$.
+
+[^1]: This notation means: $$C(s)$$ is an initial segment of
+$$C(s')$$.
 
 Let $$C\: S \to T^*$$ be a prefix code. Kraft's inequality states:
 
@@ -23,10 +24,10 @@ Let $$C\: S \to T^*$$ be a prefix code. Kraft's inequality states:
 For ostensive simplicity, I'll just prove this for case $$|T| = 2$$. (The proof
 readily applies to general $$|T|$$.)
 
-My approach is a "stateful induction"[^1], manifested as the following
+My approach is a "stateful induction"[^2], manifested as the following
 statement.
 
-[^1]: there must be a more established term for this, but it doesn't occur to me now
+[^2]: There must be a more established term for this, but it doesn't occur to me now.
 
 **Lemma.** Let $$d \geq 0$$. Let $$\iota \in T^d$$. Then
 \\[ \Sum_{\iota \preceq S(s)} |T|^{-|C(s)|} \leq 1. \]]
