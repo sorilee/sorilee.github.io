@@ -34,9 +34,9 @@ Let $$C\: S \to T^*$$ be a prefix code. Kraft's inequality states:
 [^2]: There is a converse to this statement, which I'm not bothered
       with today.
 
-I'll just prove this for case $$\abs{T} = 2$$, for imaginational[^3]
-and notational simplicity. The proof readily adapts to general
-$$\abs{T}$$.
+I'll just prove this for case $$\abs{T} = 2$$, for the sake of 
+imaginational[^3] and notational simplicity. The proof readily adapts
+to general $$\abs{T}$$.
 
 [^3]: For $$\abs{T} = 2$$, $$\im(C)$$ is a binary tree, which I find
       easier to visualise.
