@@ -38,7 +38,7 @@ and notational simplicity. The proof readily adapts to general $$\abs{T}$$.
 [^3]: For $$\abs{T} = 2$$, $$\im(C)$$ is a binary tree, which I find easier to
       visualise.
 
-My strategy is a "stateful induction"[^4], manifested in the following
+My strategy is a "stateful induction"[^4], as manifested in the following
 statement.
 
 [^4]: There must be a more established term for this, but it doesn't occur to me
