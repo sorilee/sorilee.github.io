@@ -17,6 +17,7 @@ inequality for prefix codes.
 \newcommand{\abs}[1]{\left\lvert#1\right\rvert}
 \newcommand{\LHS}{\text{LHS}}
 \newcommand{\RHS}{\text{RHS}}
+\newcommand{\im}{\mathop{\operator@font im}\nolimits}
 S$$ and $$T$$ be finite sets (alphabets). A
 *prefix code* is a function $$C\: S \to T^*$$ such that for
 $$s,s' \in S$$, if $$C(s) \preceq C(s')$$[^1] then $$s = s'$$.
