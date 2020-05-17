@@ -29,7 +29,7 @@ statement.
 [^2]: There must be a more established term for this, but it doesn't occur to me now.
 
 **Lemma.** Let $$d \geq 0$$. Let $$\iota \in T^d$$. Then
-\\[ \sum_{\iota \preceq S(s)} \abs{T}^{-\abs{C(s)}} \leq 1. \]]
+\\[ \sum_{\iota \preceq S(s)} \abs{T}^{-\abs{C(s)}} \leq 1. \\]
 
 *Proof.* By reverse induction on $$d$$.
 
