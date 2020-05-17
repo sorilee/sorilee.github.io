@@ -7,8 +7,12 @@ author: Sori Lee
 # Kraft's Inequality
 
 \$$
+$$
+**Definition.** Let $$
 \newcommand{\:}{\colon}
-$$**Definition.** Let $$S$$ and $$T$$ be finite sets (alphabets). A
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+
+S$$ and $$T$$ be finite sets (alphabets). A
 *prefix code* is a function $$C\: S \to T^*$$ such that for
 $$s,s' \in S$$, if $$C(s) \preceq C(s')$$[^1] then $$s = s'$$.
 
@@ -18,9 +22,9 @@ $$C(s')$$.
 Let $$C\: S \to T^*$$ be a prefix code. Kraft's inequality states:
 
 **Theorem (Kraft's Inequality, the inequality part).**
-\\[ \sum_{s \in S} |T|^{-|C(s)|} \leq 1. \\]
+\\[ \sum_{s \in S} |T|^{-\abs{C(s)}} \leq 1. \\]
 
-For ostensive simplicity, I'll just prove this for case $$\lvert T \rvert = 2$$. (The proof readily applies to general $$\lvert T \rvert$$.)
+For ostensive simplicity, I'll just prove this for case $$\abs{T} = 2$$. (The proof readily applies to general $$\abs{T}$$.)
 
 My approach is a "stateful induction"[^2], manifested as the following
 statement.
