@@ -21,7 +21,7 @@ Let $$C\: S \to T^*$$ be a prefix code. Kraft's inequality states:
 **Theorem (Kraft's Inequality, the inequality part).**
 \\[ \sum_{s \in S} |T|^{-\abs{C(s)}} \leq 1. \\]
 
-For ostensive simplicity, I'll just prove this for case $$\abs{T} = 2$$. (The proof readily applies to general $$\abs{T}$$.)
+For ostensive simplicity, I'll just prove this for case $$\abs{T} = 2$$. (The proof readily applies for general $$\abs{T}$$.)
 
 My approach is a "stateful induction"[^2], manifested as the following
 statement.
