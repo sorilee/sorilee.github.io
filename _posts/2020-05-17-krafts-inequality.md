@@ -6,12 +6,12 @@ author: Sori Lee
 
 # Kraft's Inequality
 
-\\(
+\$$
 \newcommand{\:}{\colon}
-\\)
-**Definition.** Let $$S$$ and $$T$$ be finite sets (alphabets). A *prefix code*
-is a function $$C\: S \to T^*$$ such that for $$s,s' \in S$$, if
-$$C(s) \preceq C(s')$$[^1] then $$s = s'$$.
+$$
+**Definition.** Let $$S$$ and $$T$$ be finite sets (alphabets). A
+*prefix code* is a function $$C\: S \to T^*$$ such that for
+$$s,s' \in S$$, if $$C(s) \preceq C(s')$$[^1] then $$s = s'$$.
 
 [^1]: This notation means: $$C(s)$$ is an initial segment of
 $$C(s')$$.
