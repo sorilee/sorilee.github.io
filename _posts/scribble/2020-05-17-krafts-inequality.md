@@ -49,17 +49,19 @@ $$\iota = ()$$.
 
 *Proof.* By reverse induction on $$d$$.
 
-Case $$d > \max_{s \in S} \abs{C(s)}$$. Then $$\LHS = 0 < \RHS$$, as is sufficient.
+Case $$d > \max_{s \in S} \abs{C(s)}$$. Then $$\LHS = 0 < \RHS$$, as
+desired.
 
 Case $$d \leq \max_{s \in S} \abs{C(s)}$$. I'll analyse this case into
 three exhaustive subcases.
 
 Subcase 1: there is no $$s \in S$$ with $$\iota \preceq C(s)$$. Then
-$$\LHS = 0 < \RHS$$, as is sufficient.
+$$\LHS = 0 < \RHS$$, as desired.
 
-Subcase 2: there is an $$s \in S$$ with $$\iota = C(s)$$. Since $$C$$ is a
-prefix code, $$s$$ is in fact the only element in $$S$$ with
-$$\iota \preceq C(s)$$. Therefore $$\LHS = 2^{-\abs{C(s)}} = \RHS$$, as is sufficient.
+Subcase 2: there is an $$s \in S$$ with $$\iota = C(s)$$. Since $$C$$
+is a prefix code, $$s$$ is in fact the only element in $$S$$ with
+$$\iota \preceq C(s)$$. Therefore $$\LHS = 2^{-\abs{C(s)}} = \RHS$$,
+as desired.
 
 Subcase 3: there are $$s \in S$$ with $$\iota ⪱ C(s)$$. Note
 that this case is disjoint from Subcase 3, because $$C$$ is a prefix
@@ -71,8 +73,8 @@ code. Thus
 \cup
 \\{s \in S \mid \iota \preceq C(s){:}1 \\},
 \\]
-where the $$\cup$$ is a disjoint union.
-Therefore, by induction, we have
+where the $$:$$s denote concatenation and the $$\cup$$, note, is a
+disjoint union. Therefore, by induction, we have
 \\[
 \LHS
 =    \sum_{
