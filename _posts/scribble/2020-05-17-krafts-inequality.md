@@ -9,6 +9,8 @@ author: Sori Lee
 **Definition.** Let $$
 \newcommand{\:}{\colon}
 \newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\LHS}{\text{LHS}}
+\newcommand{\RHS}{\text{RHS}}
 S$$ and $$T$$ be finite sets (alphabets). A
 *prefix code* is a function $$C\: S \to T^*$$ such that for
 $$s,s' \in S$$, if $$C(s) \preceq C(s')$$[^1] then $$s = s'$$.
@@ -33,17 +35,17 @@ statement.
 
 *Proof.* By reverse induction on $$d$$.
 
-Case $$d > \max_{s \in S} \abs{C(s)}$$. Then $$\text{LHS} = 0 < \text{RHS}$$, as is sufficient.
+Case $$d > \max_{s \in S} \abs{C(s)}$$. Then $$\LHS = 0 < \RHS$$, as is sufficient.
 
 Case $$d \leq \max_{s \in S} \abs{C(s)}$$. I'll analyse this case into
 three exhaustive subcases.
 
 Subcase 1: there is no $$s \in S$$ with $$\iota \preceq C(s)$$. Then
-$$LHS = 0 < RHS$$, as is sufficient.
+$$\LHS = 0 < \RHS$$, as is sufficient.
 
 Subcase 2: there is an $$s \in S$$ with $$\iota = C(s)$$. Since $$C$$ is a
 prefix code, $$s$$ is in fact the only element in $$S$$ with
-$$\iota \preceq C(s)$$. Therefore $$LHS = 2^{-\abs{C(s)}} = RHS$$, as is sufficient.
+$$\iota \preceq C(s)$$. Therefore $$\LHS = 2^{-\abs{C(s)}} = \RHS$$, as is sufficient.
 
 Subcase 3: there are $$s \in S$$ with $$\iota ⪱ C(s)$$. Note
 that this case is disjoint from Subcase 3, because $$C$$ is a prefix
@@ -58,11 +60,11 @@ code. Thus
 where the $$\cup$$ is a disjoint union.
 Therefore, by induction, we have
 \\[
-\text{LHS}
-=    sum_{s \in S, \iota{:}0 \preceq C(s)} 2^{-\abs{C(s)}} +
-     sum_{s \in S, \iota{:}1 \preceq C(s)} 2^{-\abs{C(s)}}
+\LHS
+=    \sum_{s \in S, \iota{:}0 \preceq C(s)} 2^{-\abs{C(s)}} +
+     \sum_{s \in S, \iota{:}1 \preceq C(s)} 2^{-\abs{C(s)}}
 \leq 2^{-(d+1)} + 2^{-(d+1)}
 =    2^{-d}
-=    \text{RHS}.
+=    \RHS.
 \\]
 This completes the proof. ∎
