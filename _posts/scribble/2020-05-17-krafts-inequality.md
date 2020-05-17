@@ -49,11 +49,11 @@ Subcase 3: there are $$s \in S$$ with $$\iota ⪱ C(s)$$. Note
 that this case is disjoint from Subcase 3, because $$C$$ is a prefix
 code. Thus
 \\[
-\{s \in S \mid \iota \preceq C(s)\}
+\\{s \in S \mid \iota \preceq C(s)\\}
 =
-\{s \in S \mid \iota \preceq C(s){:}0 \}
+\\{s \in S \mid \iota \preceq C(s){:}0 \\}
 \cup
-\{s \in S \mid \iota \preceq C(s){:}1 \},
+\\{s \in S \mid \iota \preceq C(s){:}1 \\},
 \\]
 where the $$\cup$$ is a disjoint union.
 Therefore, by induction, we have
