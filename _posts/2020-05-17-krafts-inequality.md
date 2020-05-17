@@ -18,10 +18,9 @@ $$C(s')$$.
 Let $$C\: S \to T^*$$ be a prefix code. Kraft's inequality states:
 
 **Theorem (Kraft's Inequality, the inequality part).**
-\\[ \Sum_{s \in S} |T|^{-|C(s)|} \leq 1. \\]
+\\[ \sum_{s \in S} |T|^{-|C(s)|} \leq 1. \\]
 
-For ostensive simplicity, I'll just prove this for case $$|T| = 2$$. (The proof
-readily applies to general $$|T|$$.)
+For ostensive simplicity, I'll just prove this for case $$\lvert T \rvert = 2$$. (The proof readily applies to general $$\lvert T \rvert$$.)
 
 My approach is a "stateful induction"[^2], manifested as the following
 statement.
@@ -29,7 +28,7 @@ statement.
 [^2]: There must be a more established term for this, but it doesn't occur to me now.
 
 **Lemma.** Let $$d \geq 0$$. Let $$\iota \in T^d$$. Then
-\\[ \Sum_{\iota \preceq S(s)} |T|^{-|C(s)|} \leq 1. \]]
+\\[ \sum_{\iota \preceq S(s)} |T|^{-|C(s)|} \leq 1. \]]
 
 *Proof.* By reverse induction on $$d$$.
 
@@ -59,8 +58,8 @@ where the $$\cup$$ is a disjoint union.
 Therefore, by induction, we have
 \\[
 \text{LHS}
-=    Sum_{s \in S, \iota{:}0 \preceq C(s)} 2^{-|C(s)|} +
-     Sum_{s \in S, \iota{:}1 \preceq C(s)} 2^{-|C(s)|}
+=    sum_{s \in S, \iota{:}0 \preceq C(s)} 2^{-|C(s)|} +
+     sum_{s \in S, \iota{:}1 \preceq C(s)} 2^{-|C(s)|}
 \leq 2^{-(d+1)} + 2^{-(d+1)}
 =    2^{-d}
 =    \text{RHS}.
