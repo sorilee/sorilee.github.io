@@ -35,7 +35,7 @@ Let $$C\: S \to T^*$$ be a prefix code. Kraft's inequality states:
 For imaginational simplicity, I'll just prove this for case
 $$\abs{T} = 2$$. (The proof readily adapts to general $$\abs{T}$$.)
 
-My approach is a "stateful induction"[^3], manifested in the following
+My strategy is a "stateful induction"[^3], manifested in the following
 statement. 
 
 [^3]: There must be a more established term for this, but it doesn't
