@@ -49,7 +49,7 @@ statement.
       occur to me now.
 
 **Lemma.** Let $$d \geq 0$$ and $$\iota \in T^d$$. Then
-\\[ \sum_{\iota \preceq S(s)} \abs{T}^{-\abs{C(s)}} \leq 2^{-d}. \\]
+\\[ \sum_{\iota \preceq S(s)} 2^{-\abs{C(s)}} \leq 2^{-d}. \\]
 
 Note that the Theorem is a special case of the Lemma for
 $$\iota = ()$$.
