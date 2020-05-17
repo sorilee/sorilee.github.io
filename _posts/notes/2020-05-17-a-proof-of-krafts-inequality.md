@@ -20,8 +20,11 @@ inequality for prefix codes.
 \newcommand{\im}{\mathop{\rm im}\nolimits}
 S$$ and $$T$$ be finite sets (alphabets). A *prefix code* is a
 function $$C\: S \to T^*$$ such that for $$s,s' \in S$$, if
-$$C(s) \preceq C(s')$$[^1] then $$s = s'$$; here, $$T^*$$ is the Kleene star and $$\preceq$$ is the initial segment (or *prefix*)
-relation.
+$$C(s) \preceq C(s')$$ then $$s = s'$$.[^1]
+
+[^1]: Here, $$T^*$$ is the Kleene star of $$T$$ (i.e. the set of
+      strings in $T$), and $$C(s) \preceq C(s')$$ denotes that
+      $$C(s)$$ is an initial segment (or *prefix*) of $$C(s')$$.
 
 Let $$C\: S \to T^*$$ be a prefix code. Kraft's inequality states:
 
