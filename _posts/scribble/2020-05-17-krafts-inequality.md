@@ -4,7 +4,13 @@ date: 2020-05-17 13:23 KST
 author: Sori Lee
 ---
 
-# Kraft's Inequality
+# Kraft's inequality
+
+In coding theory, Kraft's inequality is a fundamental (in fact,
+characterising) property of prefix codes. The result generalises to
+uniquely decodable codes, in which case it goes by the name of
+Kraft-McMillan inequality. In what follow, I work out a proof of the
+inequality for prefix codes.
 
 **Definition.** Let $$
 \newcommand{\:}{\colon}
@@ -20,18 +26,26 @@ $$s,s' \in S$$, if $$C(s) \preceq C(s')$$[^1] then $$s = s'$$.
 
 Let $$C\: S \to T^*$$ be a prefix code. Kraft's inequality states:
 
-**Theorem (Kraft's Inequality, the inequality part).**
+**Theorem (Kraft's inequality, the forward direction[^2]).**
 \\[ \sum_{s \in S} \abs{T}^{-\abs{C(s)}} \leq 1. \\]
 
-For imaginational simplicity, I'll just prove this for case $$\abs{T} = 2$$. (The proof readily adapts to general $$\abs{T}$$.)
+[^2]: There is a converse to this statement, which I'm not bothered
+      with today.
 
-My approach is a "stateful induction"[^2], manifested in the following
-statement.
+For imaginational simplicity, I'll just prove this for case
+$$\abs{T} = 2$$. (The proof readily adapts to general $$\abs{T}$$.)
 
-[^2]: There must be a more established term for this, but it doesn't occur to me now.
+My approach is a "stateful induction"[^3], manifested in the following
+statement. 
 
-**Lemma.** Let $$d \geq 0$$. Let $$\iota \in T^d$$. Then
+[^3]: There must be a more established term for this, but it doesn't
+      occur to me now.
+
+**Lemma.** Let $$d \geq 0$$ and $$\iota \in T^d$$. Then
 \\[ \sum_{\iota \preceq S(s)} \abs{T}^{-\abs{C(s)}} \leq 1. \\]
+
+Note that the Theorem is a special case of the Lemma for
+$$\iota = ()$$.
 
 *Proof.* By reverse induction on $$d$$.
 
