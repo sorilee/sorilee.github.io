@@ -41,7 +41,7 @@ and notational simplicity. The proof readily adapts to general $$\abs{T}$$.
 My strategy is a "stateful induction"[^4], as manifested in the following
 statement.
 
-[^4]: There must be a more established term for this, but it doesn't occur to me
+[^4]: There must be a more established term for this, but I can't recall one
       now.
 
 **Lemma.** Let $$d \geq 0$$ and $$\iota \in T^d$$. Then
