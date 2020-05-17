@@ -6,8 +6,7 @@ author: Sori Lee
 
 # Kraft's Inequality
 
-**Definition.** Let $$
-\newcommand{\:}{\colon}
+**Definition.** Let $$\newcommand{\:}{\colon}
 \newcommand{\abs}[1]{\left\lvert#1\right\rvert}
 S$$ and $$T$$ be finite sets (alphabets). A
 *prefix code* is a function $$C\: S \to T^*$$ such that for
