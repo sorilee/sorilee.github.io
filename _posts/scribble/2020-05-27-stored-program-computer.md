@@ -11,6 +11,6 @@ author: Sori Lee
 
       'Universal computing machine' is alao the term which Turing used in his 1936 paper for the universal Turing machine as we call it today. Note that the universal Turing machine is indeed a universal computing machine in the above sense.
       
-      Note also that I'm rather unspecific about the computational power a universal computing machine must possess: it needn't be Turing complete. Perhaps 'general-purpose' is a better adjective phrase in a context where 'universal' may be mistaken to connote Turing completeness.
+      Note also that I'm rather unspecific about the computational power a universal computing machine must possess: it needn't be Turing complete. Perhaps 'general-purpose' is a better adjectival phrase in a context where 'universal' may be mistaken to connote Turing completeness.
 
 [^2]: Be it theoretical or physical.
