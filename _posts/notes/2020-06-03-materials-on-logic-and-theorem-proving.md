@@ -20,7 +20,7 @@ Upon the request of a colleague, I list up some introductory materials on logic
 
 **Paulson's 'Logic and Proof' course.**
 
-- It's the 2019-2020 edition of Larry Paulson's Cambridge Part IB (i.e. second-year)
+- The 2019-2020 edition of Larry Paulson's Cambridge Part IB (i.e. second-year undergraduate)
   CS course 'Logic and Proof'.
 - This course covers some basic techniques for theorem proving, such as
   unification, first-order resolution and tableaux methods.
