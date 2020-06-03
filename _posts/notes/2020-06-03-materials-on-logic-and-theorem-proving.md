@@ -49,7 +49,7 @@ Upon the request of a colleague, I list up some introductory materials on logic
 - An important work that introduces its readers to the subject of categorical
   logic. One will be exposed to categories and type theories (simply typed
   lambda-calculus and many-sorted logic) along the way.
-- I'm inserting this one to the list, as my colleague specifically asked for
+- I'm including this one to the list, as my colleague specifically asked for
   preliminaries to homotopy type theory. Well, it's not a necesssary preliminary
   depending on what one wants, but undoubtedly a very useful one.
 - Book info: <https://www.cambridge.org/gb/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic>
