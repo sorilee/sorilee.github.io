@@ -33,23 +33,22 @@ Upon the request of a colleague, I list up some introductory materials on logic
 - This is a textbook for an introductory course on mathematical logic. I was
   taught logic by the second-named author with (an earlier version of) these
   notes. Suitable for advanced maths undergraduates.
-- Covers the basics of model theory (the model theory of first-order logic),
-  proof theory and set theory.
+- Covers the basics of model theory, proof theory and set theory.
 - Book info: <https://www.springer.com/gp/book/9783319924137>
 
 **Johnstone's 'Notes on Logic and Set Theory'.**
 
 - This book is a succinct compilation of the fundamentals of mathematical logic.
   Suitable for advanced maths undergraduates.
-- Covers the basics of model theory (the model theory of first-order logic),
-  computability theory (traditionally called recursion theory) and set theory.
+- Covers the basics of model theory, computability theory (traditionally called
+  recursion theory) and set theory.
 - Book info: <https://www.cambridge.org/core/books/notes-on-logic-and-set-theory/A4D56347336629DBFC20710AF214B245>
 
 **Lambek and Scott's 'Introduction to higher-order categorical logic'.**
 
 - An important work that introduces the reader to the subject of categorical
   logic. One will be exposed to categories and type theories (simply typed
-  lambda-calculus and many-sorted logic).
+  lambda-calculus and many-sorted logic) along the way.
 - I'm inserting this one to the list, as my colleague specifically asked for
   preliminaries to homotopy type theory. Well, it's not a necesssary preliminary
   depending on what one wants, but unarguably a very useful one.
