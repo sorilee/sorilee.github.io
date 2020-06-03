@@ -7,11 +7,11 @@ author: Sori Lee
 # Materials on logic and theorem proving
 
 Upon the request of a colleague, I list up some introductory materials on logic
-(and some also on theorem proving). The choice is very personal.
+(and some also on theorem proving). The choices are very personal.
 
 **Lean's 'Logic and Proof' manuscript by Avigad, Lewis and van Doorn.**
 
-- It's a very friendly introduction to logic and at the same time to the use of
+- It's a friendly introduction to logic and at the same time to the use of
   a (particular) proof assistant.
 - Especially recommended as a starting place if you are not yet familiar with
   mathematical proofs themselves.
