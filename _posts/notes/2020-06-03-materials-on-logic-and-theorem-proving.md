@@ -47,7 +47,7 @@ some also on automated theorem proving). The choices are very personal.
 
 **Lambek and Scott's 'Introduction to higher-order categorical logic'.**
 
-- An important work that introduces its readers to the subject of categorical
+- An important work that introduces its reader to the subject of categorical
   logic. One will be exposed to categories and type theories (simply typed
   lambda calculus and many-sorted logics) along the way.
 - I'm including this one in the list, because my colleague specifically asked
