@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-06-03 19:39
+date: 2020-06-03 19:39 KST
 author: Sori Lee
 ---
 
