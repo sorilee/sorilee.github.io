@@ -4,7 +4,7 @@ date: 2020-06-03 19:39
 author: Sori Lee
 ---
 
-# Introductory materials on logic and theorem proving
+# Materials on logic and theorem proving
 
 Upon the request of a colleague, I list up some introductory materials on logic
 (and some also on theorem proving). The choice is very personal.
