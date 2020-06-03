@@ -51,7 +51,7 @@ some also on automated theorem proving). The choices are very personal.
   logic. One will be exposed to categories and type theories (simply typed
   lambda calculus and many-sorted logics) along the way.
 - I'm including this one in the list because my colleague specifically asked
-  for preliminaries to homotopy type theory. Well, it's not necesssarily a
+  for preliminaries to homotopy type theory. Well, it's not a necesssary
   priliminary depending on what one wants with homotopy type theory, but
   undoubtedly a very useful one.
 - Book info: <https://www.cambridge.org/gb/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic>
