@@ -7,7 +7,7 @@ author: Sori Lee
 # Materials on logic and theorem proving
 
 Upon the request of a colleague, I list up some introductory materials on logic
-(and some also on theorem proving). The choices are very personal.
+(and some also on automated theorem proving). The choices are very personal.
 
 **Lean's 'Logic and Proof' manuscript by Avigad, Lewis and van Doorn.**
 
@@ -22,7 +22,7 @@ Upon the request of a colleague, I list up some introductory materials on logic
 
 - The 2019-2020 edition of Larry Paulson's Cambridge Part IB (i.e. second-year undergraduate)
   CS course 'Logic and Proof'.
-- This course covers some basic techniques for theorem proving, such as
+- This course covers some basic techniques for automated theorem proving, such as
   unification, first-order resolution and tableaux methods.
 - Course website: <https://www.cl.cam.ac.uk/teaching/1920/LogicProof/>
 - Lecture notes: <https://www.cl.cam.ac.uk/teaching/1920/LogicProof/logic-notes.pdf>
