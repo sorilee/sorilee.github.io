@@ -4,10 +4,10 @@ date: 2020-06-03 19:39
 author: Sori Lee
 ---
 
-# Introductory Materials on Logic and Theorem Proving
+# Introductory materials on logic and theorem proving
 
 Upon the request of a colleague, I list up some introductory materials on logic
-and theorem proving. The choice is very personal.
+(and some also on theorem proving). The choice is very personal.
 
 **Lean's 'Logic and Proof' manuscript by Avigad, Lewis and van Doorn.**
 
