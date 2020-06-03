@@ -15,8 +15,8 @@ Upon the request of a colleague, I list up some introductory materials on logic
   a (particular) proof assistant.
 - Especially recommended as a starting place if you are not yet familiar with
   mathematical proofs themselves.
-- Link: https://leanprover.github.io/logic_and_proof/
-- PDF link: https://leanprover.github.io/logic_and_proof/logic_and_proof.pdf
+- Link: <https://leanprover.github.io/logic_and_proof/>
+- PDF link: <https://leanprover.github.io/logic_and_proof/logic_and_proof.pdf>
 
 **Paulson's 'Logic and Proof' course.**
 
@@ -24,9 +24,9 @@ Upon the request of a colleague, I list up some introductory materials on logic
   CS course 'Logic and Proof'.
 - This course covers some basic techniques for theorem proving, such as
   unification, first-order resolution and tableaux methods.
-- Course Website: https://www.cl.cam.ac.uk/teaching/1920/LogicProof/
-- Lecture Notes: https://www.cl.cam.ac.uk/teaching/1920/LogicProof/logic-notes.pdf
-- Lecture Slides: https://www.cl.cam.ac.uk/teaching/1920/LogicProof/logic-slides.pdf
+- Course Website: <https://www.cl.cam.ac.uk/teaching/1920/LogicProof/>
+- Lecture Notes: <https://www.cl.cam.ac.uk/teaching/1920/LogicProof/logic-notes.pdf>
+- Lecture Slides: <https://www.cl.cam.ac.uk/teaching/1920/LogicProof/logic-slides.pdf>
 
 **Moerdijk and van Oosten's 'Sets, Models and Proofs'.**
 
@@ -35,7 +35,7 @@ Upon the request of a colleague, I list up some introductory materials on logic
   notes. Suitable for advanced maths undergraduates.
 - Covers the basics of model theory (the model theory of first-order logic),
   proof theory and set theory.
-- https://www.springer.com/gp/book/9783319924137
+- Book info: <https://www.springer.com/gp/book/9783319924137>
 
 **Johnstone's 'Notes on Logic and Set Theory'.**
 
@@ -43,7 +43,7 @@ Upon the request of a colleague, I list up some introductory materials on logic
   Suitable for advanced maths undergraduates.
 - Covers the basics of model theory (the model theory of first-order logic),
   computability theory (traditionally called recursion theory) and set theory.
-- Book info: https://www.cambridge.org/core/books/notes-on-logic-and-set-theory/A4D56347336629DBFC20710AF214B245
+- Book info: <https://www.cambridge.org/core/books/notes-on-logic-and-set-theory/A4D56347336629DBFC20710AF214B245>
 
 **Lambek and Scott's 'Introduction to higher-order categorical logic'.**
 
@@ -53,4 +53,4 @@ Upon the request of a colleague, I list up some introductory materials on logic
 - I'm inserting this one to the list, as my colleague specifically asked for
   preliminaries to homotopy type theory. Well, it's not a necesssary preliminary
   depending on what one wants, but unarguably a very useful one.
-- Book info: https://www.cambridge.org/gb/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic
+- Book info: <https://www.cambridge.org/gb/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic>
