@@ -14,7 +14,7 @@ I will first give (well, attempt) a general description of the concept of an ent
 
 Given a formal language, an *entailment relation* (or *consequence relation*) is a binary relation between a set of expressions (in the language) and an expression, that in one way or another models the notion that the latter expression is a logical consequence of the expressions in the former set.[^1]
 
-[1]: For a deeper account of this concept, see e.g. [the IEP article](https://www.iep.utm.edu/logcon/).
+[^1]: For a deeper account of this concept, see e.g. [the IEP article](https://www.iep.utm.edu/logcon/).
 
 Fix a propositional or first-order language. Recall that a set of formulas $$\Gamma$$ *proves* a formula $$\phi$$, or $$\Gamma \vdash \phi$$, if there exists a (say natural deduction) proof whose conclusion is $$\phi$$ and all of whose hypotheses are from $$\Gamma$$. This is the archetypical example of a "syntactic" entailment relation.
 
