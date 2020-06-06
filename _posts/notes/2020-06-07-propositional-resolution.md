@@ -10,11 +10,11 @@ author: Sori Lee
 
 Central to the basic discussions of resolution are its soundness and completeness. Soundness and completeness are a recurring theme in logic, which in many cases are manifested as a comparison between two 'entailment relations'.
 
-I will first give (well, attempt) a general description of the concept of an entailment relation, then go definite and give examples in propositional/first-order logic. In fact, we shall recall and render the standard notions of provability and semantic validity as the examples.
+I will first give (well, attempt) a general description of the concept of an entailment relation, then go definite and give standard examples in propositional/first-order logic.
 
 Given a formal language, an *entailment relation* (or *consequence relation*) is a binary relation between a set of expressions (in the language) and an expression, that in one way or another models the notion that the latter expression is a logical consequence of the expressions in the former set.[^1]
 
-[^1]: For a deeper account of this concept, see e.g. [the IEP article](https://www.iep.utm.edu/logcon/).
+[^1]: For a more comprehensive account of this concept, see e.g. [the IEP article](https://www.iep.utm.edu/logcon/).
 
 Fix a propositional or first-order language. Recall that a set of formulas $$\Gamma$$ *proves* a formula $$\phi$$, or $$\Gamma \vdash \phi$$, if there exists a (say natural deduction) proof whose conclusion is $$\phi$$ and all of whose hypotheses are from $$\Gamma$$. This is the archetypical example of a "syntactic" entailment relation.
 
