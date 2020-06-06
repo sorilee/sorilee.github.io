@@ -12,7 +12,7 @@ Central to the basic discussions of resolution are its soundness and completenes
 
 I will first give (well, attempt) a general description of the concept of an entailment relation, then go definite and give examples in propositional/first-order logic. In fact, we shall recall and render the standard notions of provability and semantic validity as the examples.
 
-Given a formal language, an *entailment relation* (or *consequence relation*) is a binary relation between a set of expressions (in the language) and an expression, that in one way or another models the notion that the latter expression is a logical consequence of the expressions in the former set.^[1]
+Given a formal language, an *entailment relation* (or *consequence relation*) is a binary relation between a set of expressions (in the language) and an expression, that in one way or another models the notion that the latter expression is a logical consequence of the expressions in the former set.[^1]
 
 [1]: For a deeper account of this concept, see e.g. [the IEP article](https://www.iep.utm.edu/logcon/).
 
