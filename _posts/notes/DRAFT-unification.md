@@ -4,6 +4,35 @@ date: 2020-06-03 14:36 KST
 author: Sori Lee
 ---
 
+# Resolution in propositional logic
+
+Fix a propositional language. In what follow, a *formula* will refer to a sdfs  Zdfsfdsf dfsd fas sdfa
+formula in that language.
+
+**Theorem (Soundness of Resolutional Refutation).** Let $$\Gamma$$ be a finite
+set of formulas. If $$\Gamma$ is resolutionally refutable, then $\Gamma$ is
+unsatisfiable.
+
+Note that this is evidently 
+Note that the statement is evidently equivalent to saying the 
+
+**Proposition (Soundness of Resolutional Refutation).. 
+
+
+- Let $$\Gamma$$ be a finite set of formulas and $$\phi$$ be a formula.
+
+ If
+  $$\Gamma \vdash^{\text{resolution}} \phi$$, then $$\Gamma \models \phi$$.
+
+
+
+Let $$ $$
+
+<indent>Given a formula </indent>
+
+<center>$$\Gamma \vdash^{\text{res}} ,</center>
+whence 
+
 # Resolution in First-Order Logic
 
 $$
