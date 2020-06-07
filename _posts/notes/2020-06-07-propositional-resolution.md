@@ -18,7 +18,7 @@ Given a formal language, an *entailment relation* (or *consequence relation*) is
 
 Fix a propositional or first-order language. Recall that a set of formulas $$\Gamma$$ *proves* a formula $$\phi$$, or $$\Gamma \vdash \phi$$, if there exists a (say natural-deduction) proof whose conclusion is $$\phi$$ and all of whose hypotheses are from $$\Gamma$$. This is the archetypical example of a "syntactic" entailment relation.
 
-On the other hand, recall that $$\phi$$ is *(semantically) valid* in $$\Gamma$$, or $$\Gamma \models \phi$$, if $$M \models \phi$$ (i.e. $$\phi$$ is true in in $$M$$) for every model $$M$$ of $$\Gamma$$.[^2] This, in turn, is the archetypical example of a "semantic" entailment relation.
+On the other hand, recall that $$\phi$$ is *(semantically) valid* in $$\Gamma$$, or $$\Gamma \models \phi$$, if $$M \models \phi$$ (i.e. $$\phi$$ is true in $$M$$) for every model $$M$$ of $$\Gamma$$.[^2] This, in turn, is the archetypical example of a "semantic" entailment relation.
 
 [^2]: Note the two distinct uses of the notation $$\models$$.
 
