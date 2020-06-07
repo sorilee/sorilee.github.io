@@ -6,7 +6,7 @@ author: Sori Lee
 
 # Entailment relations
 
-*This is a piece on entailment relations that I prepared as a preliminary to an explanation of propositional resolution.*
+*This is a piece on entailment relations that I prepared as a preliminary to an explanation of the propositional resolution.*
 
 Central to the basic discussions of resolution are its soundness and completeness. Soundness and completeness are a recurring theme in logic, which in many cases are manifested as a comparison between two of so-called entailment relations.
 
