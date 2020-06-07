@@ -8,7 +8,7 @@ author: Sori Lee
 
 ## Entailment relations
 
-Central to the basic discussions of resolution are its soundness and completeness. Soundness and completeness are a recurring theme in logic, which in many cases are manifested as a comparison between two 'entailment relations'.
+Central to the basic discussions of resolution are its soundness and completeness. Soundness and completeness are a recurring theme in logic, which in many cases are manifested as a comparison between two so-called entailment relations.
 
 I will first give (well, attempt) a general description of the concept of an entailment relation, then go definite and give standard examples in propositional/first-order logic.
 
@@ -32,7 +32,7 @@ It is called soundness in that the deductive apparatus (e.g. natural deduction, 
 
 Similarly, this is called completeness in that the deductive apparatus is 'complete' with respect to the standard semantics.
 
-In general, logicians speak of soundness when a "syntactic" entailment relation implies a "semantic" entailment relation and, of completeness for the converse.
+In general, logicians speak of soundness when a syntactic entailment relation implies a semantic entailment relation and, of completeness for the converse.
 
 Propositional resolution, the subject of our discussions today, gives rise to another entailment relation of syntactic nature for propositional logic. It will be thus natural to ask whether it is also sound and complete with respect to the standard semantics.
 
