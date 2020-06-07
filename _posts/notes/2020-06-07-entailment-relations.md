@@ -6,7 +6,7 @@ author: Sori Lee
 
 # Entailment relations
 
-What follow is a piece I prepared as a preliminary to an explanation of propositional resolution.
+The following is a piece on entailment relations that I prepared as a preliminary to an explanation of propositional resolution.
 
 ----
 
