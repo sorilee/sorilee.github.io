@@ -4,9 +4,11 @@ date: 2020-06-07 04:30 KST
 author: Sori Lee
 ---
 
-# Propositional resolution
+# Entailment relations
 
-## Entailment relations
+What follow is a piece I prepared as a preliminary to an explanation of propositional resolution.
+
+----
 
 Central to the basic discussions of resolution are its soundness and completeness. Soundness and completeness are a recurring theme in logic, which in many cases are manifested as a comparison between two 'entailment relations'.
 
@@ -33,7 +35,3 @@ Similarly, this is called completeness in that the deductive apparatus is 'compl
 In general, logicians speak of soundness when a "syntactic" entailment relation implies a "semantic" entailment relation and, of completeness for the converse.
 
 Propositional resolution, the subject of our discussions today, gives rise to another entailment relation of syntactic nature for propositional logic. It will be thus natural to ask whether it is also sound and complete with respect to the standard semantics.
-
-## Resolution
-
-TBC
