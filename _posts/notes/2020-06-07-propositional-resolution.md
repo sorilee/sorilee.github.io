@@ -8,7 +8,7 @@ author: Sori Lee
 
 ## Entailment relations
 
-Central to the basic discussions of resolution are its soundness and completeness. Soundness and completeness are a recurring theme in logic, which in many cases are manifested as a comparison between two so-called entailment relations.
+Central to the basic discussions of resolution are its soundness and completeness. Soundness and completeness are a recurring theme in logic, which in many cases are manifested as a comparison between two of so-called entailment relations.
 
 I will first give (well, attempt) a general description of the concept of an entailment relation, then go definite and give standard examples in propositional/first-order logic.
 
