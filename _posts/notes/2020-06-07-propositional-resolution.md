@@ -26,7 +26,7 @@ On the other hand, recall that $$\phi$$ is *(semantically) valid* in $$\Gamma$$,
 
 **Theorem (Soundness).** If $$\Gamma \vdash \phi$$, then $$\Gamma \models \phi$$.
 
-It is called soundness in that the deductive apparatus (e.g. natural deduction, yielding $$\vdash$$) of the logic is 'sound' with respect to its standard semantics (yielding $$\models$$).
+It is called soundness in that the deductive apparatus (e.g. natural deduction, yielding $$\vdash$$) of the logic is 'sound' with respect to its standard semantics (which yields the $$\models$$).
 
 **Theorem (Completeness).** If $$\Gamma \models \phi$$, then $$\Gamma \vdash \phi$$.
 
