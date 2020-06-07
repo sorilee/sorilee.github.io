@@ -22,11 +22,11 @@ On the other hand, recall that $$\phi$$ is *(semantically) valid* in $$\Gamma$$,
 
 [^2]: Note the two distinct uses of the notation $$\models$$.
 
-The 'standard' soundness and completeness are the statements that simply compare these two entailment relations:
+*The* soundness and completeness of propositional or first-order logic are the statements that simply compare these two entailment relations:
 
 **Theorem (Soundness).** If $$\Gamma \vdash \phi$$, then $$\Gamma \models \phi$$.
 
-It is called soundness in that the deductive apparatus (e.g. natural deduction, yielding $$\vdash$$) of the (propositional or first-order) logic is 'sound' with respect to its standard semantics (yielding $$\models$$).
+It is called soundness in that the deductive apparatus (e.g. natural deduction, yielding $$\vdash$$) of the logic is 'sound' with respect to its standard semantics (yielding $$\models$$).
 
 **Theorem (Completeness).** If $$\Gamma \models \phi$$, then $$\Gamma \vdash \phi$$.
 
