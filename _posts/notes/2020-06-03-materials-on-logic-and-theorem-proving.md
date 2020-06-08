@@ -6,7 +6,7 @@ author: Sori Lee
 
 # Materials on logic and theorem proving
 
-Upon a colleague's request, I list up some introductory materials on logic (and
+Upon the request of a colleague, I list up some introductory materials on logic (and
 some also on automated theorem proving). The choices are very personal.
 
 **Lean's 'Logic and Proof' manuscript by Avigad, Lewis and van Doorn.**
