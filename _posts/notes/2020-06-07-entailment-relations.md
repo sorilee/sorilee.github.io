@@ -12,7 +12,7 @@ Central to the basic discussions of resolution are its soundness and completenes
 
 I will first give (well, attempt) a general description of the concept of an entailment relation, then go definite and give standard examples in propositional/first-order logic.
 
-**Concept.** Given a formal language, an *entailment relation* (or *consequence relation*) is a binary relation between a set of expressions (in the language) and an expression, that in one way or another models the notion that the latter expression is a logical consequence of the former expressions.[^1]
+**Terminology.** Given a formal language, an *entailment relation* (or *consequence relation*) is a binary relation between a set of expressions (in the language) and an expression, that in one way or another models the notion that the latter expression is a logical consequence of the former expressions.[^1]
 
 [^1]: For a more comprehensive account of this concept, see e.g. [the IEP article](https://www.iep.utm.edu/logcon/).
 
@@ -32,6 +32,6 @@ It is called soundness in that the deductive apparatus (e.g. natural deduction, 
 
 Similarly, this is called completeness in that the deductive apparatus is 'complete' with respect to the standard semantics.
 
-**Concept.** In general, logicians speak of *soundness* when a syntactic entailment relation implies a semantic entailment relation, and of *completeness* for the converse.
+**Terminology.** In general, logicians speak of *soundness* when a syntactic entailment relation implies a semantic entailment relation, and of *completeness* for the converse.
 
 Propositional resolution gives rise to another entailment relation of syntactic nature for propositional logic. A natural question thence to ask is whether it is also sound and complete with respect to the standard semantics, and it turns out so.
