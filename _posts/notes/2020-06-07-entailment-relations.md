@@ -34,4 +34,4 @@ Similarly, this is called completeness in that the deductive apparatus is 'compl
 
 **Terminology.** In general, logicians speak of *soundness* when a syntactic entailment relation implies a semantic entailment relation, and of *completeness* for the converse.
 
-Propositional resolution gives rise to another entailment relation of syntactic nature for propositional logic. A natural question thence to ask is whether it is also sound and complete with respect to the standard semantics, and it turns out so.
+Propositional resolution gives rise to another entailment relation of syntactic nature for propositional logic. A natural question thence to ask is whether it is also sound and complete with respect to the standard semantics, which turns out so.
