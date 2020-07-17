@@ -4,7 +4,7 @@ date: 2020-07-17 KST
 author: Sori Lee
 ---
 
-# The lambda terms
+# The lambda calculus: how authors define it
 
 **Definition.** Fix a set of *variables*. The *λ-terms* are defined by induction as follows.
 
@@ -22,7 +22,9 @@ All references I know of, in particular [Hindley] and [BDS] which I'm looking at
 
 **Notation.** The triple bar sign ($$\equiv$$) is used to denote so-called *syntactic equality* of λ-terms in literature ([Hindley], p. xx; [BDS], p. 1).
 
-For example, the left-associative convention of applications may be examplified as:
+For example, the left-associative convention of the applicative notation may be examplified as:
 \\[
 LMN \equiv (LM)N.
 \\]
+
+**Remark.** Some authors, notably [B1984] (Convention 2.1.12) and [BDS] (Remark 1A.7), adopt the position that α-conversion is part of the syntactic equality of λ-terms. 
