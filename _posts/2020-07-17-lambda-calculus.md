@@ -22,7 +22,7 @@ All major references I know, in particular [B1984], [Hindley] and [BDS], virtual
 
 [^1]: that is, a term in the (untyped) lambda calculus
 
-**Notation.** The triple bar sign ($$\equiv$$) is used to denote syntactic equality of λ-terms in literature ([B1984], Notation 2.1.2(iv); [Hindley], p. xx; [BDS], p. 1).
+**Notation.** The triple bar sign ($$\equiv$$) is used to denote the syntactic equality of λ-terms in literature ([B1984], Notation 2.1.2(iv); [Hindley], p. xx; [BDS], p. 1).
 
 For example, the left-associative convention of the applicative notation may be examplified as:
 \\[
