@@ -6,6 +6,8 @@ author: Sori Lee
 
 # The lambda calculus: how authors define it
 
+### Lambda terms
+
 **Definition.** Fix a set of *variables*. The *λ-terms* are defined by induction as follows.
 
    1. Each variable is a λ-term, called an *atom*.
