@@ -28,3 +28,20 @@ LMN \equiv (LM)N.
 \\]
 
 **Remark.** Some authors, notably [B1984] (Convention 2.1.12) and [BDS] (Remark 1A.7), adopt the position that α-conversion is part of the syntactic equality of λ-terms. 
+
+## Beta and eta in equational lambda calculus
+
+When one is to regard the lambda calculus as an equational theory, the beta and eta conversions are taken as axioms:
+
+- The *beta* axiom:
+  \\[
+  (\lambda x . M)N = M[N/x]
+  \\]
+  for all $$x$$, $$M$$ and $$N$$.
+ 
+- The *eta* axiom:
+  \\[
+  \lambda x . Mx = M
+  \\]
+  if $$x \notin \textrm{FV}(M)$$ for all $$x$$ and $$M$$.
+
