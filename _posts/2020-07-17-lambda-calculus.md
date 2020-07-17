@@ -45,4 +45,4 @@ When one is to regard the lambda calculus as an equational theory, the beta and 
   \\]
   if $$x \notin \textrm{FV}(M)$$ for all $$x$$ and $$M$$.
 
-*Reference:* [BDS], Definition 1A.4.
+*Reference.* [BDS], Definition 1A.4.
