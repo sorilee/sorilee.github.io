@@ -18,7 +18,9 @@ author: Sori Lee
 
 <!-- A *composite* λ-term is a λ-term that is not an atom. -->
 
-All major references I know, in particular [B1984], [Hindley] and [BDS], virtually give the above as the definition of a λ-term[^1] *per se*. By *per se* I mean without regard to which λ-terms to identify as the same, that is, how to define their *syntactic equality*.
+All major (modern) references I know, in particular [B1984], [Hindley] and [BDS], virtually give the above as the definition of a λ-term[^1] *per se*. By *per se* I mean without regard to which λ-terms to identify as the same, that is, how to define their *syntactic equality*.
+
+<!-- Note. Took brief looks at Church 1932 and Church 1936 too, but couldn't quickly discern whether those definitions (esp. the 1936 one which is said to be the untyped lambda calculus) agree with the above as well. -->
 
 [^1]: that is, a term in the (untyped) lambda calculus
 
