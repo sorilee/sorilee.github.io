@@ -39,13 +39,13 @@ When one is to regard the lambda calculus as an equational theory, the beta and 
 
 - The *beta* axiom:
   \\[
-  (\lambda x . M)N = M[N/x]
+  (\lambda x{.}M)N = M[N/x]
   \\]
   for all $$x$$, $$M$$ and $$N$$.
  
 - The *eta* axiom:
   \\[
-  \lambda x . Mx = M
+  \lambda x{.}Mx = M
   \\]
   if $$x \notin \textrm{FV}(M)$$ for all $$x$$ and $$M$$.
 
