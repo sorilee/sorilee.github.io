@@ -16,9 +16,13 @@ author: Sori Lee
 
 A *composite* λ-term is a λ-term that is not an atom.
 
-**Notation.** The triple bar sign ($$\equiv$$) is used to denote so-called *syntactic equality* of λ-terms in literature ([Hindley], p.~xx; [BDS], p.~1).
+All references I know of, in particular [Hindley] and [BDS] which I'm looking at at the very moment, virtually give the above as the definition of a λ-term[^1] *per se*. By *per se* I mean without regard to which λ-terms to identify as the same.
 
-For example, the left-associative convention for applications may be examplified by writing:
+[^1]: that is, a term in the (untyped) lambda calculus
+
+**Notation.** The triple bar sign ($$\equiv$$) is used to denote so-called *syntactic equality* of λ-terms in literature ([Hindley], p. xx; [BDS], p. 1).
+
+For example, the left-associative convention of applications may be examplified as:
 \\[
 LMN \equiv (LM)N.
 \\]
