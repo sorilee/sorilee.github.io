@@ -18,20 +18,20 @@ author: Sori Lee
 
 <!-- A *composite* λ-term is a λ-term that is not an atom. -->
 
-All major (modern) references I know, in particular [B1984], [Hindley] and [BDS], virtually give the above as the definition of a λ-term[^1] *per se*. By *per se* I mean without regard to which λ-terms to identify as the same, that is, how to define their *syntactic equality*.
+All major (modern) references I know, in particular [B84], [H94] and [BDS13], virtually give the above as the definition of a λ-term[^1] *per se*. By *per se* I mean without regard to which λ-terms to identify as the same, that is, how to define their *syntactic equality*.
 
 <!-- Note. Took brief looks at Church 1932 and Church 1936 too, but couldn't quickly discern whether those definitions (esp. the 1936 one which is said to be the untyped lambda calculus) agree with the above as well. -->
 
 [^1]: that is, a term in the (untyped) lambda calculus
 
-**Notation.** The triple bar sign ($$\equiv$$) is used to denote the syntactic equality of λ-terms in literature ([B1984], Notation 2.1.2(iv); [Hindley], p. xx; [BDS], p. 1).
+**Notation.** The triple bar sign ($$\equiv$$) is used to denote the syntactic equality of λ-terms in literature ([B84], Notation 2.1.2(iv); [H97], p. xx; [BDS13], p. 1).
 
 For example, the left-associative convention of the applicative notation may be examplified as:
 \\[
 LMN \equiv (LM)N.
 \\]
 
-**Remark.** Some authors, notably [B1984] (Convention 2.1.12) and [BDS] (Remark 1A.7), adopt the position that α-conversion is part of the syntactic equality of λ-terms. 
+**Remark.** Some authors, notably [B84] (Convention 2.1.12) and [BDS13] (Remark 1A.7), adopt the position that α-conversion is part of the syntactic equality of λ-terms. 
 
 ### Beta and eta in equational lambda calculus
 
@@ -49,4 +49,10 @@ When one is to regard the lambda calculus as an equational theory, the beta and 
   \\]
   if $$x \notin \textrm{FV}(M)$$ for all $$x$$ and $$M$$.
 
-Reference: [BDS], Definition 1A.4.
+Reference: [BDS13], Definition 1A.4.
+
+### References
+
+- [B84]
+- [H97]
+- [BDS13]
