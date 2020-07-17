@@ -14,7 +14,7 @@ author: Sori Lee
 
    2. If $$M$$ and $$N$$ are λ-terms, then the pair written $$MN$$ is a λ-term called an *application*.
 
-   3. If $$x$$ is a variable and $$M$$ is a λ-term, then the pair written $$\lambda x . M$$ is a λ-term called an *abstract* or *λ-abstract*.
+   3. If $$x$$ is a variable and $$M$$ is a λ-term, then the pair written $$\lambda x{.}M$$ is a λ-term called an *abstract* or *λ-abstract*.
 
 <!-- A *composite* λ-term is a λ-term that is not an atom. -->
 
