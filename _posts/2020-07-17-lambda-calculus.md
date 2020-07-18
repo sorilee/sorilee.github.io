@@ -9,9 +9,9 @@ author: Sori Lee
 ### Lambda terms and their identity
 
 The lambda calculus is a formal system with a single "kind" of expressions, unlike for instance predicate logics in which there are terms and formulas, two different kinds of expressions.
-The expressions of the lambda calculus are referred to as 'λ-terms'.
+The expressions of the lambda calculus are referred to as λ-terms.
 
-**Definition.** Fix a set of *variables*. A *λ-term* is defined inductively as follows.
+**Definition.** Fix a set of *variables*. A *(raw) λ-term* is defined inductively as follows.
 
    1. Each variable is a λ-term, called an *atom*.
 
@@ -21,11 +21,15 @@ The expressions of the lambda calculus are referred to as 'λ-terms'.
 
 <!-- A *composite* λ-term is a λ-term that is not an atom. -->
 
-All major (modern) references I know, in particular [B84], [H94] and [BDS13], virtually give the above as the definition of a λ-term[^1] *per se*. By *per se* I mean without regard to which λ-terms to identify as the same, that is, how to define their *syntactic equality*.
-
 <!-- Note. Took brief looks at Church 1932 and Church 1936 too, but couldn't quickly discern whether those definitions (esp. the 1936 one which is said to be the untyped lambda calculus) agree with the above as well. -->
 
-[^1]: that is, a term in the (untyped) lambda calculus
+<!-- All major (modern) references I know, in particular [B84], [H94] and [BDS13], virtually give the above as the definition of a λ-term[^1] *per se*. By *per se* I mean without regard to which λ-terms to identify as the same, that is, how to define their *syntactic equality*. -->
+
+All major (modern) references I know, in particular [B84], [H94] and [BDS13], virtually give the above as the defining clauses of a λ-term. However, authors differ over whether or not / how to identify these inductively introduced objects as the same λ-terms.
+
+......
+
+<!-- People nevertheless seem to agree over the notation. -->
 
 **Notation.** The triple bar sign ($$\equiv$$) is used to denote the syntactic equality of λ-terms in literature ([B84], Notation 2.1.2(iv); [H97], p. xx; [BDS13], p. 1).
 
