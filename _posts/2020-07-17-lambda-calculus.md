@@ -4,11 +4,14 @@ date: 2020-07-17 KST
 author: Sori Lee
 ---
 
-# The lambda calculus: how authors define it
+# The lambda calculus: basic definitions
 
-### Lambda terms
+### Lambda terms and their identity
 
-**Definition.** Fix a set of *variables*. The *λ-terms* are defined by induction as follows.
+The lambda calculus is a formal system with a single "kind" of expressions, unlike for instance predicate logics in which there are terms and formulas, two different kinds of expressions.
+The expressions of the lambda calculus are referred to as 'λ-terms'.
+
+**Definition.** Fix a set of *variables*. A *λ-term* is defined inductively as follows.
 
    1. Each variable is a λ-term, called an *atom*.
 
