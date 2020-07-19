@@ -22,14 +22,13 @@ The lambda calculus is a formal system with a single "kind" of expressions, unli
 
 **Definition.** Choose a denumerable set of *variables*. A *λ-term* is defined inductively as follows.
 
-   <!--1. Each variable is a λ-term, called an *atom*.-->
    1. Each variable $$x$$ induces a λ-term just written $$x$$, an *atom*.
 
-   <!--2. If $$M$$ and $$N$$ are λ-terms, then the pair written $$MN$$ is a λ-term called an *application*.-->
    2. Each pair of λ-terms $$M$$ and $$N$$ induces a λ-term written $$MN$$, an *application*.
 
-   <!--3. If $$x$$ is a variable and $$M$$ is a λ-term, then the pair written $$\lambda x{.}M$$ is a λ-term called an *abstract* or *λ-abstract*.-->
-   3. Each pair of a variable $$x$$ and a λ-term $$M$$ induces a λ-term written $$\lambda x{.}M$$, an *abstract* or *λ-abstract*.
+   3. Each pair of a variable $$x$$ and a λ-term $$M$$ induces a λ-term written $$\lambda x{.}M$$, an *abstract* or *λ-abstract*.[^2]
+
+[^2]: I took this terminology from [H97], Definition 1A1, (iii).
 
 **Note.** Church [C36] originally stipulates that the infinite set of variables be countable. Some authors, including [H97] and [BDS13], are more explicit than others, such as [B84], in requiring the countability. Some author, [S13], simply doesn't require it.
 
@@ -37,9 +36,9 @@ All notable references I know, including [C36], [B84], [H97], [BDS13] and [S13],
 
 Regardless of this fine difference in the notion, a notable notation is used in a common way across modern literature:
 
-**Notation.** The equality of λ-terms is denoted by the triple bar '$$\equiv$$' (instead of the usual double bar '$$=$$'), and may be referred to as their *syntactic* equality.[^2]
+**Notation.** The equality of λ-terms is denoted by the triple bar '$$\equiv$$' (instead of the usual double bar '$$=$$'), and may be referred to as their *syntactic* equality.[^3]
 
-[^2]: [B84], Notation 2.1.2(iv); [H97], Notation 1A1.1; [BDS13], p. xx and Remark 1A.7; [S13], p. 13.
+[^3]: [B84], Notation 2.1.2(iv); [H97], Notation 1A1.1; [BDS13], p. xx and Remark 1A.7; [S13], p. 13.
 
 As an example of the use of this notation, the left-associative convention of the applicative juxtaposition can be examplified as:
 \\[
