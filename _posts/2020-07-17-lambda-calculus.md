@@ -36,7 +36,7 @@ The lambda calculus is a formal system with a single "kind" of expressions, unli
 
 **Note.** Church [C36] originally stipulates that the infinite set of variables be countable. Some authors, including [H97] and [BDS13], are more explicit than others, such as [B84], in requiring the countability. Some author, [S13], simply doesn't require it.
 
-All major references I know, including [C36], [B84], [H97], [BDS13] and [S13], virtually give the above as the defining clauses of a λ-term. However, authors differ over whether or not <!--/ how--> to identify some of these inductively introduced objects as the same λ-terms.
+All major references I know, including [C36], [B84], [H97], [BDS13] and [S13], give virtually the above as the defining clauses of a λ-term. However, authors differ over whether or not <!--/ how--> to identify some of these inductively introduced objects as the same λ-terms.
 
 
 
