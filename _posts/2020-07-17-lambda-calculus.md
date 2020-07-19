@@ -34,7 +34,7 @@ The lambda calculus is a formal system with a single "kind" of expressions, unli
 
 <!-- All major (modern) references I know, in particular [B84], [H94] and [BDS13], virtually give the above as the definition of a λ-term[^1] *per se*. By *per se* I mean without regard to which λ-terms to identify as the same, that is, how to define their *syntactic equality*. -->
 
-**Note.** Church [C36] originally stipulates that the infinite set of variables be countable. Some authors, including [H97] and [BDS13], are more explicit than others, such as [B84], in requiring the countability. Some author, [S13], simply doesn't require it.
+**Note.** Church [C36] originally stipulates that the infinite set of variables must be countable. Some authors, including [H97] and [BDS13], are more explicit than others, such as [B84], in requiring the countability. Some author, [S13], simply doesn't require it.
 
 All notable references I know, including [C36], [B84], [H97], [BDS13] and [S13], give virtually the above as the inducing clauses of a λ-term. However, authors differ over whether or not <!--/ how--> to identify some of the induced objects as the same λ-terms. But this becomes a mere terminological question, in the presence of the more informingly phrased question of when to regard two raw λ-terms as *syntactically the same*.
 
