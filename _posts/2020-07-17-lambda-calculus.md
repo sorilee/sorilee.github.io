@@ -38,6 +38,7 @@ The lambda calculus is a formal system with a single "kind" of expressions, unli
 
 All notable references I know, including [C36], [B84], [H97], [BDS13] and [S13], give virtually the above as the defining clauses of a λ-term. However, authors differ over whether or not <!--/ how--> to identify some of these inductively introduced objects as the same λ-terms.
 
+In [B84] and [BDS13], a λ-term is an equivalence class of 'raw' λ-terms under α-conversion.
 
 
 ......
