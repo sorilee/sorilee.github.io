@@ -28,33 +28,20 @@ The lambda calculus is a formal system with a single "kind" of expressions, unli
 
    3. If $$x$$ is a variable and $$M$$ is a λ-term, then the pair written $$\lambda x{.}M$$ is a λ-term called an *abstract* or *λ-abstract*.
 
-<!-- A *composite* λ-term is a λ-term that is not an atom. -->
+**Note.** Church [C36] originally stipulates that the infinite set of variables be countable. Some authors, including [H97] and [BDS13], are more explicit than others, such as [B84], in requiring the countability. Some author, [S13], simply doesn't require it.
 
-<!-- Note. Took brief looks at Church 1932 and Church 1936 too, but couldn't quickly discern whether those definitions (esp. the 1936 one which is said to be the untyped lambda calculus) agree with the above as well. -->
+All notable references I know, including [C36], [B84], [H97], [BDS13] and [S13], give virtually the above as the inducing clauses of a λ-term. Authors just differ over whether or not to identify the α-convertibles: in [C36], [H97] and [S13] a λ-term is just a 'raw' λ-term, whereas in [BDS13] and less explicitly in [B84] it is an equivalence class under α-conversion.
 
-<!-- All major (modern) references I know, in particular [B84], [H94] and [BDS13], virtually give the above as the definition of a λ-term[^1] *per se*. By *per se* I mean without regard to which λ-terms to identify as the same, that is, how to define their *syntactic equality*. -->
+Regardless of this fine difference in the notion, a notable notation is used in a common way across modern literature:
 
-**Note.** Church [C36] originally stipulates that the infinite set of variables must be countable. Some authors, including [H97] and [BDS13], are more explicit than others, such as [B84], in requiring the countability. Some author, [S13], simply doesn't require it.
+**Notation.** The equality of λ-terms is denoted by the triple bar '$$\equiv$$' (instead of the usual double bar '$$=$$'), and is often referred to as the *syntactic* equality.[^2]
 
-All notable references I know, including [C36], [B84], [H97], [BDS13] and [S13], give virtually the above as the inducing clauses of a λ-term. However, authors differ over whether or not <!--/ how--> to identify some of the induced objects as the same λ-terms. But this becomes a mere terminological question in the presence of the more informingly phrased question of when to regard two raw λ-terms as *syntactically the same*.
+[^2]: [B84], Notation 2.1.2(iv); [H97], Notation 1A1.1; [BDS13], p. xx and Remark 1A.7; [S13], p. 13.
 
-<!-- People nevertheless seem to agree over the notation. -->
-
-**Notation.** The triple bar sign ($$\equiv$$) is used to denote the syntactic equality on raw λ-terms in literature ([B84], Notation 2.1.2(iv); [H97], p. xx; [BDS13], p. 1).
-
-<!-- Let me return to the terminological question.
-In [BDS13], and less explicitly in [B84], a λ-term is an equivalence class of 'raw' λ-terms under syntactic equality. -->
-
-<!--
-For example, the left-associative convention of the applicative juxtaposition may be examplified as:
+As an example of the use of this notation, the left-associative convention of the applicative juxtaposition may be examplified as:
 \\[
 LMN \equiv (LM)N.
 \\]
--->
-
-<!--
-**Remark.** Some authors, notably [B84] (Convention 2.1.12) and [BDS13] (Remark 1A.7), adopt the position that α-conversion is part of the syntactic equality of λ-terms. 
--->
 
 ### Beta and eta in equational lambda calculus
 
