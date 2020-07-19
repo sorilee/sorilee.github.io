@@ -20,17 +20,20 @@ The lambda calculus is a formal system with a single "kind" of expressions, unli
 
 [^1]: Church [C36] originally called them formulas.
 
-**Definition.** Choose a denumerable set of *variables*. A *(raw) λ-term* is defined inductively as follows.
+**Definition.** Choose a denumerable set of *variables*. A *λ-term* is defined inductively as follows.
 
-   1. Each variable is a λ-term, called an *atom*.
+   <!--1. Each variable is a λ-term, called an *atom*.-->
+   1. Each variable $$x$$ induces a λ-term just written $$x$$, an *atom*.
 
-   2. If $$M$$ and $$N$$ are λ-terms, then the pair written $$MN$$ is a λ-term called an *application*.
+   <!--2. If $$M$$ and $$N$$ are λ-terms, then the pair written $$MN$$ is a λ-term called an *application*.-->
+   2. Each pair of λ-terms $$M$$ and $$N$$ induce a λ-term written $$MN$$, an *application*.
 
-   3. If $$x$$ is a variable and $$M$$ is a λ-term, then the pair written $$\lambda x{.}M$$ is a λ-term called an *abstract* or *λ-abstract*.
+   <!--3. If $$x$$ is a variable and $$M$$ is a λ-term, then the pair written $$\lambda x{.}M$$ is a λ-term called an *abstract* or *λ-abstract*.-->
+   3. Each pair of a variable $$x$$ and a λ-term $$M$$ induces a λ-term written $$\lambda x{.}M$$, an *abstract* or *λ-abstract*.
 
 **Note.** Church [C36] originally stipulates that the infinite set of variables be countable. Some authors, including [H97] and [BDS13], are more explicit than others, such as [B84], in requiring the countability. Some author, [S13], simply doesn't require it.
 
-All notable references I know, including [C36], [B84], [H97], [BDS13] and [S13], give virtually the above as the inducing clauses of a λ-term. Authors just differ over whether or not to identify the α-convertibles: in [C36], [H97] and [S13] a λ-term is just a 'raw' λ-term, whereas in [BDS13] and less explicitly in [B84] it is an equivalence class under α-conversion.
+All notable references I know, including [C36], [B84], [H97], [BDS13] and [S13], give virtually the above as the inducing clauses of a λ-term. Authors just differ over whether or not to identify the α-convertibles: in [C36], [H97] and [S13] a λ-term is just a 'raw' λ-term, whereas in [BDS13] and less explicitly in [B84] it is an equivalence class under α-conversion. I'm inclined to the former choice (whence the definition above), particularly for the sake of not lessening the simplicity of the notion.
 
 Regardless of this fine difference in the notion, a notable notation is used in a common way across modern literature:
 
