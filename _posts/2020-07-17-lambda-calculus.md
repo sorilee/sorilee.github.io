@@ -4,14 +4,13 @@ date: 2020-07-17 KST
 author: Sori Lee
 ---
 
-# The lambda calculus: basic definitions
+# The lambda calculus: how authors define it
 
 ### Lambda terms and their identity
 
-The lambda calculus is a formal system with a single "kind" of expressions, unlike for instance predicate logics in which there are terms and formulas, two different kinds of expressions.
-The expressions of the lambda calculus are referred to as λ-terms.
+The lambda calculus is a formal system with a single "kind" of expressions, unlike for instance predicate logics in which there are two kinds -- terms and formulas. The expressions of the lambda calculus are referred to as λ-terms.
 
-**Definition.** Fix a set of *variables*. A *(raw) λ-term* is defined inductively as follows.
+**Definition.** Choose a denumerable set of *variables*. A *λ-term* is defined inductively as follows.
 
    1. Each variable is a λ-term, called an *atom*.
 
@@ -25,7 +24,9 @@ The expressions of the lambda calculus are referred to as λ-terms.
 
 <!-- All major (modern) references I know, in particular [B84], [H94] and [BDS13], virtually give the above as the definition of a λ-term[^1] *per se*. By *per se* I mean without regard to which λ-terms to identify as the same, that is, how to define their *syntactic equality*. -->
 
-All major (modern) references I know, in particular [B84], [H94] and [BDS13], virtually give the above as the defining clauses of a λ-term. However, authors differ over whether or not / how to identify these inductively introduced objects as the same λ-terms.
+**Note.** Church [C36] originally stipulates that the infinite set of variables be countable. Some authors, including [H97] and [BDS13], are more explicit than others, such as [B84], in requiring the countability. Some author, [S13], simply doesn't require it.
+
+All major references I know, including [C36], [B84], [H97], [BDS13] and [S13], virtually give the above as the defining clauses of a λ-term. However, authors differ over whether or not <!--/ how--> to identify some of these inductively introduced objects as the same λ-terms.
 
 ......
 
