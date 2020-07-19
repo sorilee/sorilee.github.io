@@ -22,17 +22,17 @@ The lambda calculus is a formal system with a single "kind" of expressions, unli
 
 **Definition.** Choose a denumerable set of *variables*. A *λ-term* is defined inductively as follows.
 
-   1. Each variable $$x$$ induces a λ-term just written $$x$$, an *atom*.
+1. Each variable $$x$$ induces a λ-term just written $$x$$, an *atom*.
 
-   2. Each pair of λ-terms $$M$$ and $$N$$ induces a λ-term written $$MN$$, an *application*.
+2. Each pair of λ-terms $$M$$ and $$N$$ induces a λ-term written $$MN$$, an *application*.
 
-   3. Each pair of a variable $$x$$ and a λ-term $$M$$ induces a λ-term written $$\lambda x{.}M$$, an *abstract* or *λ-abstract*.[^2]
+3. Each pair of a variable $$x$$ and a λ-term $$M$$ induces a λ-term written $$\lambda x{.}M$$, an *abstract* or *λ-abstract*.[^2]
 
 [^2]: I took this terminology from [H97], Definition 1A1, (iii).
 
 **Note.** Church [C36] originally stipulates that the infinite set of variables be countable. Some authors, including [H97] and [BDS13], are more explicit than others, such as [B84], in requiring the countability. Some author, [S13], simply doesn't require it.
 
-All references I know, including [C36], [B84], [H97], [BDS13] and [S13], give virtually the above as the inducing clauses of a λ-term. Authors just differ over whether or not to identify the α-convertibles: in [C36], [H97] and [S13] a λ-term is just a 'raw' λ-term, whereas in [BDS13] and less explicitly in [B84] it is an equivalence class under α-conversion. *Personalia:* I'm inclined to the former choice (whence the definition above), particularly for the sake of not lessening the simplicity of the notion.
+All references I know, including [C36], [B84], [H97], [BDS13] and [S13], give virtually the above as the inducing clauses of a λ-term. Authors just differ over whether or not to identify the α-convertibles: in [C36], [H97] and [S13] a λ-term is just a 'raw' λ-term, whereas in [BDS13] and less explicitly in [B84] it is an equivalence class under α-conversion. Personalia: I'm inclined to the former choice (whence the definition above), particularly for the sake of not lessening the simplicity of the notion.
 
 Regardless of this difference over the identity of λ-terms, a notable notation is employed in a common way across modern literature for its designation:
 
@@ -45,7 +45,11 @@ As an example of the use of this notation, the left-associative convention of th
 LMN \equiv (LM)N.
 \\]
 
+<!-- Contrast alpha here. -->
+
 ### Beta and eta in equational lambda calculus
+
+-- IN PROGRESS --
 
 When one is to regard the lambda calculus as an equational theory, the beta and eta conversions are taken as axioms:
 
@@ -63,8 +67,12 @@ When one is to regard the lambda calculus as an equational theory, the beta and 
 
 Reference: [BDS13], Definition 1A.4.
 
+-- TBC --
+
 ### References
 
+- [C36]
 - [B84]
 - [H97]
 - [BDS13]
+- [S13]
