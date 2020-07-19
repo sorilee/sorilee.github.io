@@ -20,7 +20,7 @@ The lambda calculus is a formal system with a single "kind" of expressions, unli
 
 [^1]: Church [C36] originally called them formulas.
 
-**Definition.** Choose a denumerable set of *variables*. A *λ-term* is defined inductively as follows.
+**Definition.** Choose a denumerable set of *variables*. A *(raw) λ-term* is defined inductively as follows.
 
    1. Each variable is a λ-term, called an *atom*.
 
