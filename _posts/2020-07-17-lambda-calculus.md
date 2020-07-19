@@ -34,11 +34,11 @@ All notable references I know, including [C36], [B84], [H97], [BDS13] and [S13],
 
 Regardless of this fine difference in the notion, a notable notation is used in a common way across modern literature:
 
-**Notation.** The equality of λ-terms is denoted by the triple bar '$$\equiv$$' (instead of the usual double bar '$$=$$'), and may be referred to as the *syntactic* equality.[^2]
+**Notation.** The equality of λ-terms is denoted by the triple bar '$$\equiv$$' (instead of the usual double bar '$$=$$'), and may be referred to as their *syntactic* equality.[^2]
 
 [^2]: [B84], Notation 2.1.2(iv); [H97], Notation 1A1.1; [BDS13], p. xx and Remark 1A.7; [S13], p. 13.
 
-As an example of the use of this notation, the left-associative convention of the applicative juxtaposition may be examplified as:
+As an example of the use of this notation, the left-associative convention of the applicative juxtaposition can be examplified as:
 \\[
 LMN \equiv (LM)N.
 \\]
