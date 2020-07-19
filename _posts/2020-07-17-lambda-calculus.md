@@ -26,7 +26,7 @@ The lambda calculus is a formal system with a single "kind" of expressions, unli
    1. Each variable $$x$$ induces a λ-term just written $$x$$, an *atom*.
 
    <!--2. If $$M$$ and $$N$$ are λ-terms, then the pair written $$MN$$ is a λ-term called an *application*.-->
-   2. Each pair of λ-terms $$M$$ and $$N$$ induce a λ-term written $$MN$$, an *application*.
+   2. Each pair of λ-terms $$M$$ and $$N$$ induces a λ-term written $$MN$$, an *application*.
 
    <!--3. If $$x$$ is a variable and $$M$$ is a λ-term, then the pair written $$\lambda x{.}M$$ is a λ-term called an *abstract* or *λ-abstract*.-->
    3. Each pair of a variable $$x$$ and a λ-term $$M$$ induces a λ-term written $$\lambda x{.}M$$, an *abstract* or *λ-abstract*.
