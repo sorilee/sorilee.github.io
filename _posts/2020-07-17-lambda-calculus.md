@@ -35,7 +35,7 @@ The lambda calculus is a formal system with a single "kind" of expressions, unli
 All notable references I know, including [C36], [B84], [H97], [BDS13] and [S13], give virtually the above as the inducing clauses of a λ-term. Authors just differ over whether or not to identify the α-convertibles: in [C36], [H97] and [S13] a λ-term is just a 'raw' λ-term, whereas in [BDS13] and less explicitly in [B84] it is an equivalence class under α-conversion.
 *Personalia:* I'm inclined to the former choice (whence the definition above), particularly for the sake of not lessening the simplicity of the notion.
 
-Regardless of this fine difference in the notion, a notable notation is used in a common way across modern literature:
+Regardless of this difference over the identity of λ-terms, a notable notation is employed in a common way across modern literature for its designation:
 
 **Notation.** The equality of λ-terms is denoted by the triple bar '$$\equiv$$' (instead of the usual double bar '$$=$$'), and may be referred to as their *syntactic* equality.[^3]
 
