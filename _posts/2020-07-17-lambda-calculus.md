@@ -1,14 +1,24 @@
 ---
 layout: post
-date: 2020-07-17 KST
+date: 2020-07-19 KST
+date created: 2020-07-17 KST
 author: Sori Lee
 ---
 
 # The lambda calculus: how authors define it
 
+<!--
+### A note on its origin: Church 1932 vs Church 1936
+
+A lambda-calculus formalism makes its first appearance in Church [C32].
+......
+-->
+
 ### Lambda terms and their identity
 
-The lambda calculus is a formal system with a single "kind" of expressions, unlike for instance predicate logics in which there are two kinds -- terms and formulas. The expressions of the lambda calculus are referred to as λ-terms.
+The lambda calculus is a formal system with a single "kind" of expressions, unlike for instance predicate logics in which there are two kinds -- terms and formulas. The expressions of the lambda calculus are commonly called λ-terms.[^1]
+
+[^1]: Church [C36] originally called them formulas.
 
 **Definition.** Choose a denumerable set of *variables*. A *λ-term* is defined inductively as follows.
 
@@ -27,6 +37,8 @@ The lambda calculus is a formal system with a single "kind" of expressions, unli
 **Note.** Church [C36] originally stipulates that the infinite set of variables be countable. Some authors, including [H97] and [BDS13], are more explicit than others, such as [B84], in requiring the countability. Some author, [S13], simply doesn't require it.
 
 All major references I know, including [C36], [B84], [H97], [BDS13] and [S13], virtually give the above as the defining clauses of a λ-term. However, authors differ over whether or not <!--/ how--> to identify some of these inductively introduced objects as the same λ-terms.
+
+
 
 ......
 
