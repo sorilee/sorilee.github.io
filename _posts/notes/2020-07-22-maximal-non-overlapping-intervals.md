@@ -23,15 +23,19 @@ The *coverage size* of $$X$$ is the cardinality $$|C_X|$$.
 
 5. Let $$I$$ be a finite set of intervals. A *coverage-maximal* set of non-overlapping intervals from $$I$$ refers to a set of non-overlapping intervals from $$I$$ whose coverage size is maximal.
 
-6. Let $$SS$$ be a natural number.[^2]
+6. Let $$S$$ be a natural number.[^2]
 An *interval* in $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
 
 [^1]: This restriction is of course unnecessary for these definitions, but I have asserted it since infinite cases are irrelevant for our purposes.
 
 [^2]: For ㅎㅊ: this is the number is words in your given sentence.
 
-**Problem.** Given a natural number $$S$$ and a set $$I$$ of intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
+<!-- **Problem.** Given a natural number $$S$$ and a set $$I$$ of intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
 
-<!-- Here is the idea behind the algorithm to be presented.
+Here is the idea behind the algorithm to be presented.
+Let -->
 
-**Algorithm.** TBC -->
+**Proposition.**
+
+<!-- **Algorithm.** TBC -->
+
