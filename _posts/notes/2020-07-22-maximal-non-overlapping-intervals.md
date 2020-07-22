@@ -60,7 +60,7 @@ Then $$\{(n,m)\} \cup M_{j+1}$$ is a coverage-maximal set of non-overlapping int
 
 **Proposition.** Let $$0 \leq n < S-1$$.
 
-1. If $$I_{=n} = \emptyset$$, then $$M_{n+1}$$ is a a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
+1. If $$I_{=n} = \emptyset$$, then $$M_{n+1}$$ is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
 
 2. Otherwise, any set of the form
 \\[
