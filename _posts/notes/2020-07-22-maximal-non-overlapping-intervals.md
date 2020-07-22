@@ -15,7 +15,7 @@ author: Sori Lee
 
 2. Intervals $$(i,j)$$ and $$(k,l)$$ are *disjoint* if $$[i,j] \cap [k,l] = \emptyset$$.
 
-3. By a *set of disjoint intervals* we shall mean a set of pairwise disjoint intervals.
+3. A *set of disjoint intervals* means a set of pairwise disjoint intervals.
 
 4. Let $$X$$ be a finite[^1] set of intervals. The *coverage* of $$X$$ is the set
 \\[
@@ -26,7 +26,7 @@ The *coverage size* of $$X$$ is the cardinality $$\lvert C_X \rvert$$.
 5. Let $$I$$ be a finite set of intervals. A *maximally covering* set of disjoint intervals from $$I$$ refers to a set of disjoint intervals from $$I$$ whose coverage size is maximal.
 
 6. Let $$S$$ be a non-negative integer.
-An interval *below* $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
+An interval *below* $$S$$ means an interval $$(i,j)$$ with $$j < S$$.
 
 [^1]: These finiteness restrictions are of course unnecessary for the definitions themselves, but I assert them since infinite cases are irrelevant for our purposes.
 
