@@ -24,7 +24,7 @@ The *coverage size* of $$X$$ is the cardinality $$\lvert C_X \rvert$$.
 5. Let $$I$$ be a finite set of intervals. A *coverage-maximal* set of non-overlapping intervals from $$I$$ refers to a set of non-overlapping intervals from $$I$$ whose coverage size is maximal.
 
 6. Let $$S$$ be a natural number.[^2]
-An *interval* in $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
+An interval *in* $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
 
 [^1]: This restriction is of course unnecessary for these definitions, but I have asserted it since infinite cases are irrelevant for our purposes.
 
@@ -78,7 +78,7 @@ with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal 
 
 [^3]: This step takes $$O(\lvert I \rvert)$$ time.
 
-[^4]: This step takes $$O(\lvert I \rvert)$$ time in total, since $$\lvert I \rvert = \lvert I_{=0} \rvert + \ldots + \lvert I_{=S-1} \rvert$$.
+[^4]: This step takes $$O(\lvert I \rvert)$$ time, since $$\lvert I \rvert = \lvert I_{=0} \rvert + \ldots + \lvert I_{=S-1} \rvert$$.
 
 **Proposition 2.** This algorithm terminates, is correct and runs in $$O(\lvert I \rvert)$$ time. ∎
 
