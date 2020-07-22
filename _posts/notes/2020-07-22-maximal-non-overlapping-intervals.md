@@ -5,9 +5,9 @@ date created: 2020-07-22 KST
 author: Sori Lee
 ---
 
-# An algorithm for finding a coverage-maximal set of non-overlapping intervals
+# An algorithm for finding a maximally covering set of disjoint intervals
 
-*I was given a programming problem by a colleague today. Below are a precise formulation and a linear-time solution that I suggested.*
+*I was given a programming problem by a colleague today. Below are a precise formulation and a linear-time solution that I proposed.*
 
 **Definition.** In what follow, a 'natural number' will be a non-negative integer.
 
@@ -37,11 +37,9 @@ Before giving the algorithm, I will first summarise the idea behind it in a prop
 Some notations will be useful.
 Let $$n \in \mathbf{N}$$.
 Write
+   - $$I_{=n} := \{(n,j) \in I\}\ (= \{(i,j) \in I \mid i = n\})$$, and
 
-- $$I_{=n} := \{(n,j) \in I\}\ (= \{(i,j) \in I \mid i = n\})$$, and
-
-- $$I_{\geq n} := \{(i,j) \in I \mid i \geq n\}$$.
-
+   - $$I_{\geq n} := \{(i,j) \in I \mid i \geq n\}$$.
 We further denote by $$M_n$$ an arbitrary coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
 
 <!--
