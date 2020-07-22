@@ -28,8 +28,6 @@ An interval *in* $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
 
 [^1]: This restriction is of course unnecessary for this definition, but I have asserted it since infinite cases are irrelevant for our purposes.
 
-[^2]: For ㅎㅊ: this is the number is words in your given sentence.
-
 **Problem.** Given a natural number $$S$$ and a non-empty finite set $$I$$ of *input* intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
 
 I will first summarise the idea behind the algorithm in a proposition.
@@ -70,15 +68,15 @@ with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal 
 
 **Algorithm.** This is an algorithm for the above Problem.
 
-1. For each $$n = 0, \ldots, S-1$$, compute $$I_{=n}$$ say as a list.[^3]
+1. For each $$n = 0, \ldots, S-1$$, compute $$I_{=n}$$ say as a list.[^2]
 
-2. For each $$n = S-1, \ldots, 1$$ (in that order), compute $$M_n$$ using Proposition 1.[^4]
+2. For each $$n = S-1, \ldots, 1$$ (in that order), compute $$M_n$$ using Proposition 1.[^3]
 
 3. Report $$M_0$$ as the answer.
 
-[^3]: This step should be realised to take $$O(S + \lvert I \rvert)$$ time.
+[^2]: This step should be realised to take $$O(S + \lvert I \rvert)$$ time.
 
-[^4]: This step takes $$O(S + \lvert I \rvert)$$ time, since $$\lvert I \rvert = \lvert I_{=0} \rvert + \ldots + \lvert I_{=S-1} \rvert$$.
+[^3]: This step takes $$O(S + \lvert I \rvert)$$ time, since $$\lvert I \rvert = \lvert I_{=0} \rvert + \ldots + \lvert I_{=S-1} \rvert$$.
 
 **Proposition 2.** This algorithm terminates, is correct and runs in $$O(S + \lvert I \rvert)$$ time. ∎
 
