@@ -80,6 +80,6 @@ with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal 
 
 [^4]: This step takes $$O(\lvert I \rvert)$$ time in total, since $$\lvert I \rvert = \lvert I_{=0} \rvert + \ldots + \lvert I_{=S-1} \rvert$$.
 
-**Proposition 2.** The algorithm runs in $$O(\lvert I \rvert)$$ time. ∎
+**Proposition 2.** The algorithm terminates, is correct and runs in $$O(\lvert I \rvert)$$ time. ∎
 
 *Footnotes.*
