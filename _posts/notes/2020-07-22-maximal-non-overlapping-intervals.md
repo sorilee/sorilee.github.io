@@ -30,7 +30,9 @@ An interval *in* $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
 
 [^1]: This restriction is of course unnecessary for this definition itself, but I have asserted it since infinite cases are irrelevant for our purposes.
 
-**Problem.** Given a natural number $$S$$ and a non-empty finite set $$I$$ of *input* intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
+**Problem.** Given a natural number $$S$$ and a non-empty[^4] finite set $$I$$ of *input* intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
+
+[^4]: I have asserted this so that there is at least one maximally covering set of disjoint intervals from $$I$$, as this simplifies the formulations of both the problem and the algorithm.
 
 Before giving the algorithm, I will first summarise the idea behind it in a proposition.
 
@@ -54,7 +56,7 @@ Write
 Then $$\{(n,m)\} \cup M_{j+1}$$ is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
 -->
 
-**Proposition 1.** Let $$0 \leq n < S-1$$.
+**Proposition 1.** Let $$0 \leq n < S$$.
 
 1. If $$I_{=n} = \emptyset$$, then $$M_{n+1}$$ is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
 
