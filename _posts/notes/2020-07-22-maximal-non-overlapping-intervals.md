@@ -64,8 +64,6 @@ Then $$\{(n,m)\} \cup M_{j+1}$$ is a coverage-maximal set of non-overlapping int
 \\]
 with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$. ∎
 
-Here is an algorithm for the Problem above.
-
 **Algorithm.**
 
 1. For each $$n = 0, \ldots, S-1$$, compute $$I_{=n}$$ say as a list.[^2]
