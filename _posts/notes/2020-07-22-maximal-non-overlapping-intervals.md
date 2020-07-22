@@ -7,6 +7,8 @@ author: Sori Lee
 
 # An algorithm for finding a coverage-maximal set of non-overlapping intervals
 
+*I was given a programming problem by a colleague today. Below are a precise formulation and a linear-time solution that I suggested.*
+
 **Definition.** In what follow, a 'natural number' shall refer to a non-negative integer.
 
 1. An *interval* is a pair $$(i,j)$$ of natural numbers such that $$i \leq j$$.
@@ -40,7 +42,7 @@ Write
 
 - $$I_{\geq n} := \{(i,j) \in I \mid i \geq n\}$$.
 
-We further denote by $$M_n$$ an arbitrary coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
+We further denote by $$M_n$$ an arbitrary coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$. This is an algorithm for the above Problem:
 
 <!--
 Now the idea behind the algorithm to be presented is summarised in:
@@ -66,18 +68,22 @@ Then $$\{(n,m)\} \cup M_{j+1}$$ is a coverage-maximal set of non-overlapping int
 \\]
 with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$. ∎
 
-**Algorithm.** This is an algorithm for the above Problem.
+**Algorithm.**
 
 1. For each $$n = 0, \ldots, S-1$$, compute $$I_{=n}$$ say as a list.[^2]
 
-2. For each $$n = S-1, \ldots, 1$$ (in that order), compute $$M_n$$ using Proposition 1.[^3]
+2. For each $$n = S-1, \ldots, 0$$ (in that order), compute an $$M_n$$ using Proposition 1.[^3]
 
-3. Report $$M_0$$ as the answer.
+3. Report the $$M_0$$ as the answer.
 
-[^2]: This step should be realised to take $$O(S + \lvert I \rvert)$$ time.
+[^2]: This step should be implemented to take $$O(S + \lvert I \rvert)$$ time.
 
 [^3]: This step takes $$O(S + \lvert I \rvert)$$ time, since $$\lvert I \rvert = \lvert I_{=0} \rvert + \ldots + \lvert I_{=S-1} \rvert$$.
 
 **Proposition 2.** This algorithm terminates, is correct and runs in $$O(S + \lvert I \rvert)$$ time. ∎
+
+<!--
+*Acknowledgement.* 
+-->
 
 *Footnotes.*
