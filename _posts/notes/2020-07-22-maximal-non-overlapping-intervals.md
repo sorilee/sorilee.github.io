@@ -74,10 +74,10 @@ with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal 
 
 2. Set $$M_S = \{\}$$. For each $$n = S-1, \ldots, S-1$$ (in that order), compute $$M_n$$ using the Proposition 1.[^4]
 
-[^3]: This should take $$O(\|I\|)$$ time.
+[^3]: This should take $$O(\lvert I \rvert)$$ time.
 
-[^4]: This should take $$O(|I|)$$ time, since $$|I| = |I_{=0}| + \ldots + |I_{=S-1}|$$.
+[^4]: This should take $$O(\lvert I \rvert)$$ time, since $$\lvert I \rvert = \lvert I_{=0} \rvert + \ldots + \lvert I_{=S-1} \rvert$$.
 
-**Proposition 2.** The algorithm runs in $$O(|I|)$$ time. ∎
+**Proposition 2.** The algorithm runs in $$O(\lvert I \rvert)$$ time. ∎
 
 *Footnotes.*
