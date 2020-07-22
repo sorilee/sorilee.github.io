@@ -5,46 +5,44 @@ date created: 2020-07-22 KST
 author: Sori Lee
 ---
 
-# An algorithm for finding a maximally covering set of disjoint intervals
+*I was spoken to about a programming problem by a colleague today. Below are a precise formulation and a linear-time solution that I proposed.*
 
-*I was given a programming problem by a colleague today. Below are a precise formulation and a linear-time solution that I proposed.*
+**Definition.**
 
-**Definition.** In what follow, a 'natural number' will be a non-negative integer.
+1. An *interval* is a pair $$(i,j)$$ of non-negative integers such that $$i \leq j$$.
 
-1. An *interval* is a pair $$(i,j)$$ of natural numbers such that $$i \leq j$$.
+2. Intervals $$(i,j)$$ and $$(k,l)$$ are *disjoint* if $$[i,j] \cap [k,l] = \emptyset$$.
 
-2. Intervals $$(i,j)$$ and $$(k,l)$$ are *non-overlapping* if $$[i,j] \cap [k,l] = \emptyset$$.
-
-3. By a *set of non-overlapping intervals* we shall mean a set of pairwise non-overlapping intervals.
+3. By a *set of disjoint intervals* we shall mean a set of pairwise disjoint intervals.
 
 4. Let $$X$$ be a finite[^1] set of intervals. The *coverage* of $$X$$ is the set
 \\[
-C_X := \\{n \in \mathbf{N} \mid i \leq n \leq j,\ (i,j) \in X\\}.
+C_X := \\{n \in \mathbf{Z}_{\geq 0} \mid i \leq n \leq j,\ (i,j) \in X\\}.
 \\]
 The *coverage size* of $$X$$ is the cardinality $$\lvert C_X \rvert$$.
 
-5. Let $$I$$ be a finite set of intervals. A *coverage-maximal* set of non-overlapping intervals from $$I$$ refers to a set of non-overlapping intervals from $$I$$ whose coverage size is maximal.
+5. Let $$I$$ be a finite set of intervals. A *maximally covering* set of disjoint intervals from $$I$$ refers to a set of disjoint intervals from $$I$$ whose coverage size is maximal.
 
-6. Let $$S$$ be a natural number.
-An interval *in* $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
+6. Let $$S$$ be a non-negative integer.
+An interval *below* $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
 
 [^1]: These finiteness restrictions are of course unnecessary for the definitions themselves, but I assert them since infinite cases are irrelevant for our purposes.
 
-**Problem.** Given a natural number $$S$$ and a non-empty[^4] finite set $$I$$ of *input* intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
+**Problem.** Given a non-negative integer $$S$$ and a non-empty[^4] finite set $$I$$ of *input* intervals below $$S$$, find a maximally covering set of disjoint intervals from $$I$$.
 
 [^4]: I assert this so that there is at least one maximally covering set of disjoint intervals from $$I$$, as that simplifies the formulations of both the problem and the algorithm.
 
 Before giving the algorithm, I will first summarise the idea behind it in a proposition.
 
 Some notations will be useful.
-Let $$n \in \mathbf{N}$$.
+Let $$n \in \mathbf{Z}_{\geq 0}$$.
 Write
 
 - $$I_{=n} := \{(n,j) \in I\}\ (= \{(i,j) \in I \mid i = n\})$$, and
 
 - $$I_{\geq n} := \{(i,j) \in I \mid i \geq n\}$$.
 
-We further denote by $$M_n$$ an arbitrary coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
+We further denote by $$M_n$$ an arbitrary maximally covering set of disjoint intervals from $$I_{\geq n}$$.
 
 <!--
 **Proposition.**
@@ -53,18 +51,18 @@ Write
 \\[
 (n,m) = \mathop{argmax}_{(n,j) \in I_{=n}} |C_{\\{(n,j)\\} \cup M_{j+1}}|.
 \\]
-Then $$\{(n,m)\} \cup M_{j+1}$$ is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
+Then $$\{(n,m)\} \cup M_{j+1}$$ is a maximally covering set of disjoint intervals from $$I_{\geq n}$$.
 -->
 
 **Proposition 1.** Let $$0 \leq n < S$$.
 
-1. If $$I_{=n} = \emptyset$$, then $$M_{n+1}$$ is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
+1. If $$I_{=n} = \emptyset$$, then $$M_{n+1}$$ is a maximally covering set of disjoint intervals from $$I_{\geq n}$$.
 
 2. Otherwise, any set of the form
 \\[
 \\{(n,j)\\} \cup M_{j+1}
 \\]
-with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$. ∎
+with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a maximally covering set of disjoint intervals from $$I_{\geq n}$$. ∎
 
 **Algorithm.**
 
