@@ -13,7 +13,7 @@ author: Sori Lee
 
 For what follow, we fix the $$S$$, and an 'interval' without further elaboration shall refer to an interval in $$S$$.
 
-2. Intervals $$(i,j)$$ and $$(k,l)$$ are *non-overlapping* if $$\[i,j\] \cap \[k,l\] = \emptyset$$.
+2. Intervals $$(i,j)$$ and $$(k,l)$$ are *non-overlapping* if $$[i,j] \cap [k,l] = \emptyset$$.
 
 3. By a *set of non-overlapping intervals* we mean a set of pairwise non-overlapping intervals.
 
