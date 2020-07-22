@@ -70,7 +70,7 @@ with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal 
 
 1. For each $$n = 0, \ldots, S-1$$, compute $$I_{=n}$$ say as a list.[^2]
 
-2. For each $$n = S-1, \ldots, 0$$ (in that order), compute an $$M_n$$ using Proposition 1.[^3]
+2. For each $$n = S-1, \ldots, 0$$, in that order, compute an $$M_n$$ using Proposition 1.[^3]
 
 3. Report the $$M_0$$ as an answer.
 
