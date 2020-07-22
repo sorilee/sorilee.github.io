@@ -47,8 +47,15 @@ Now the idea behind the algorithm to be presented is summarised in:
 Let $$0 \leq n < S-1$$.
 Write
 \\[
-(n,j) = \mathop{argmax}_{(n,j) \in I_{=n}} |C_{\\{(n,j)\\} \cup M_{j+1}}|.
+(n,m) = \mathop{argmax}_{(n,j) \in I_{=n}} |C_{\\{(n,j)\\} \cup M_{j+1}}|.
 \\]
+Then $$\\{(n,j)\\} \cup M_{j+1}$$ is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
+
+<!-- A set of the form
+\\[
+\\{(n,j)\\} \cup M_{j+1}
+\\]
+with $$(n,j) \in I_{=n}$$ whose coverage size is maximal is -->
 
 
 <!-- **Algorithm.** TBC -->
