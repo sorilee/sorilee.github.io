@@ -13,8 +13,7 @@ I intend to list computational resources on CCG here.
 
 ## Datasets
 
-### Groningen Meaning Bank
-
+<!--Groningen Meaning Bank-->
 
 ## Papers
 
