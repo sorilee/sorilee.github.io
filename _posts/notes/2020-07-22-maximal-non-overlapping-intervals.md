@@ -30,12 +30,26 @@ An *interval* in $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
 
 [^2]: For ㅎㅊ: this is the number is words in your given sentence.
 
-**Problem.** Given a natural number $$S$$ and a set $$I$$ of intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
+**Problem.** Given a natural number $$S$$ and a finite set $$I$$ of intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
 
-<!-- Here is the idea behind the algorithm to be presented.
-Let -->
+### The idea behind the algorithm
+
+Let me first introduce some notations.
+Let $$n \in \mathbf{N}$$.
+Write
+- $$I_{=n} := \\{(n,j) \in \I\\} (= \\{(i,j) \in I \mid i = n\\})$$, and
+- $$I_{\geq n} := \\{(i,j) \in I \mid i \geq n\\}$$.
+Then, write $$M_n$$ for an arbitrary coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$ (which we know exists since $$I_{\geq n}$$ is finite).
+
+Now the idea behind the algorithm to be presented is summarised in:
 
 **Proposition.**
+Let $$0 \leq n < S-1$$.
+Write
+\\[
+(n,j) = \mathop{argmax}_{(n,j) \in I_{=n}} |C_{\\{(n,j)\\} \cup M_{j+1}}|.
+\\]
+
 
 <!-- **Algorithm.** TBC -->
 
