@@ -42,11 +42,7 @@ Write
 
 - $$I_{\geq n} := \{(i,j) \in I \mid i \geq n\}$$.
 
-We further denote by $$M_n$$ an arbitrary coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$. This is an algorithm for the above Problem:
-
-<!--
-Now the idea behind the algorithm to be presented is summarised in:
--->
+We further denote by $$M_n$$ an arbitrary coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
 
 <!--
 **Proposition.**
