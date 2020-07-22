@@ -9,7 +9,7 @@ author: Sori Lee
 
 *I was given a programming problem by a colleague today. Below are a precise formulation and a linear-time solution that I suggested.*
 
-**Definition.** In what follow, a 'natural number' shall mean a non-negative integer.
+**Definition.** In what follow, a 'natural number' will be a non-negative integer.
 
 1. An *interval* is a pair $$(i,j)$$ of natural numbers such that $$i \leq j$$.
 
@@ -78,6 +78,6 @@ with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal 
 
 **Proposition 2.** This algorithm terminates, is correct and runs in $$O(S + \lvert I \rvert)$$ time. ∎
 
-*I thanks J. Yim for careful reading and correcting that the complexity is $$O(S + \lvert I \rvert)$$ instead of $$O(\lvert I \rvert)$$, and H. Noh for the problem and discussions.*
+*I thank J. Yim for careful reading and correcting that the complexity is $$O(S + \lvert I \rvert)$$ instead of $$O(\lvert I \rvert)$$, and H. Noh for the problem and discussions.*
 
 *Footnotes.*
