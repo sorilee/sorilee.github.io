@@ -37,9 +37,11 @@ Before giving the algorithm, I will first summarise the idea behind it in a prop
 Some notations will be useful.
 Let $$n \in \mathbf{N}$$.
 Write
-   - $$I_{=n} := \{(n,j) \in I\}\ (= \{(i,j) \in I \mid i = n\})$$, and
 
-   - $$I_{\geq n} := \{(i,j) \in I \mid i \geq n\}$$.
+- $$I_{=n} := \{(n,j) \in I\}\ (= \{(i,j) \in I \mid i = n\})$$, and
+
+- $$I_{\geq n} := \{(i,j) \in I \mid i \geq n\}$$.
+
 We further denote by $$M_n$$ an arbitrary coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
 
 <!--
