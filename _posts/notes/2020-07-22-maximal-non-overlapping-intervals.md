@@ -23,9 +23,9 @@ For what follow, we fix the $$S$$, and an 'interval' without further elaboration
 \\[
 C_X := \\{n \in \mathbf{N} \mid i \leq n \leq j,\ (i,j) \in X\\}.
 \\]
-The *coverage size* of $$X$$ is the natural number $$|C_X| \leq S$$.
+The *coverage size* of $$X$$ is the cardinality $$|C_X|$$.
 
-- A *coverage-maximal* set of non-overlapping intervals refers to a set of non-overlapping intervals whose coverage size is maximal.
+- Let $$X$$ be a (finite) set of intervals. A *coverage-maximal* set of non-overlapping intervals from $$X$$ refers to a set of non-overlapping intervals in $$X$$ whose coverage size is maximal.
 
 **Problem.** Given a set $$I$$ of intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
 
