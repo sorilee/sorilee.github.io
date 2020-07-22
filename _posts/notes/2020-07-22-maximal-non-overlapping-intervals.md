@@ -19,7 +19,7 @@ For what follow, we fix the $$S$$, and an 'interval' without further elaboration
 
 - Let $$X$$ be a set of intervals. The *coverage* of $$X$$ is the set
 \\[
-C_X := \\{n \in \mathbf{N} \mid i \leq m \leq j,\ (i,j) \in X\\}.
+C_X := \\{n \in \mathbf{N} \mid i \leq n \leq j,\ (i,j) \in X\\}.
 \\]
 The *coverage size* of $$X$$ is the natural number $$|C_X| \leq X$$.
 
@@ -27,6 +27,6 @@ The *coverage size* of $$X$$ is the natural number $$|C_X| \leq X$$.
 
 **Problem.** Given a set of intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals.
 
-**Here is the idea behind the algorithm.**
+<!-- Here is the idea behind the algorithm to be presented.
 
-**Algorithm.** TBC
+**Algorithm.** TBC -->
