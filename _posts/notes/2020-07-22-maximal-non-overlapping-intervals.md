@@ -30,7 +30,7 @@ An *interval* in $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
 
 [^2]: For ㅎㅊ: this is the number is words in your given sentence.
 
-**Problem.** Given a natural number $$S$$ and a finite set $$I$$ of *input* intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
+**Problem.** Given a natural number $$S$$ and a non-empty finite set $$I$$ of *input* intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
 
 I will first summarise the idea behind the algorithm in a proposition.
 
@@ -58,7 +58,7 @@ Write
 Then $$\{(n,m)\} \cup M_{j+1}$$ is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
 -->
 
-**Proposition.** Let $$0 \leq n < S-1$$.
+**Proposition 1.** Let $$0 \leq n < S-1$$.
 
 1. If $$I_{=n} = \emptyset$$, then $$M_{n+1}$$ is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
 
@@ -66,11 +66,18 @@ Then $$\{(n,m)\} \cup M_{j+1}$$ is a coverage-maximal set of non-overlapping int
 \\[
 \\{(n,j)\\} \cup M_{j+1}
 \\]
-with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
+with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$. ∎
 
+**Algorithm.**
 
+1. For each $$n = 0, \ldots, S-1$$, compute $$I_{=n}$$ say as a list.[^3]
 
+2. Set $$M_S = \{\}$$. For each $$n = S-1, \ldots, S-1$$ (in that order), compute $$M_n$$ using the Proposition above.[^4]
 
-<!-- **Algorithm.** TBC -->
+[^3]: This should take $$O(|I|)$$ time.
+
+[^4]: This should take $$O(|I|)$$ time, since $$|I| = |I_{=0}| + \ldots + |I_{=S-1}|$$.
+
+**Proposition 2.** The algorithm runs in $$O(|I|)$$ time. ∎
 
 *Footnotes.*
