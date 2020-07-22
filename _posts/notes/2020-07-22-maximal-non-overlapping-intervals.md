@@ -9,7 +9,7 @@ author: Sori Lee
 
 *I was given a programming problem by a colleague today. Below are a precise formulation and a linear-time solution that I suggested.*
 
-**Definition.** In what follow, a 'natural number' shall refer to a non-negative integer.
+**Definition.** In what follow, a 'natural number' shall mean a non-negative integer.
 
 1. An *interval* is a pair $$(i,j)$$ of natural numbers such that $$i \leq j$$.
 
