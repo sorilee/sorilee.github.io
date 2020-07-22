@@ -37,9 +37,12 @@ I will first summarise the idea behind the algorithm to be presented in a propos
 Some notations will be useful.
 Let $$n \in \mathbf{N}$$.
 Write
+
 - $$I_{=n} := \{(n,j) \in I\}\ (= \{(i,j) \in I \mid i = n\})$$, and
+
 - $$I_{\geq n} := \{(i,j) \in I \mid i \geq n\}$$.
-Then, write $$M_n$$ for an arbitrary coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$ (which we know exists since $$I_{\geq n}$$ is finite).
+
+We further denote by $$M_n$$ an arbitrary coverage-maximal set of non-overlapping intervals from $$I_{\geq n}$$.
 
 <!--
 Now the idea behind the algorithm to be presented is summarised in:
