@@ -30,9 +30,9 @@ An *interval* in $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
 
 [^2]: For ㅎㅊ: this is the number is words in your given sentence.
 
-<!-- **Problem.** Given a natural number $$S$$ and a set $$I$$ of intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
+**Problem.** Given a natural number $$S$$ and a set $$I$$ of intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
 
-Here is the idea behind the algorithm to be presented.
+<!-- Here is the idea behind the algorithm to be presented.
 Let -->
 
 **Proposition.**
