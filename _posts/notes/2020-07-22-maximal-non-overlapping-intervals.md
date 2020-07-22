@@ -32,7 +32,7 @@ An *interval* in $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
 
 **Problem.** Given a natural number $$S$$ and a finite set $$I$$ of *input* intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
 
-I will first summarise the idea behind the algorithm to be presented in a proposition.
+I will first summarise the idea behind the algorithm in a proposition.
 
 Some notations will be useful.
 Let $$n \in \mathbf{N}$$.
