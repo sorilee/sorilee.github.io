@@ -73,3 +73,4 @@ with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal 
 
 <!-- **Algorithm.** TBC -->
 
+*Footnotes.*
