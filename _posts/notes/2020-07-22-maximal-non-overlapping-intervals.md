@@ -5,6 +5,8 @@ date created: 2020-07-22 KST
 author: Sori Lee
 ---
 
+# An algorithm for finding a maximally covering set of disjoint intervals
+
 *I was spoken to about a programming problem by a colleague today. Below are a precise formulation and a linear-time solution that I proposed.*
 
 **Definition.**
