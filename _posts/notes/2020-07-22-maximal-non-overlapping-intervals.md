@@ -19,7 +19,7 @@ author: Sori Lee
 \\[
 C_X := \\{n \in \mathbf{N} \mid i \leq n \leq j,\ (i,j) \in X\\}.
 \\]
-The *coverage size* of $$X$$ is the cardinality $$|C_X|$$.
+The *coverage size* of $$X$$ is the cardinality $$\lvert C_X \rvert$$.
 
 5. Let $$I$$ be a finite set of intervals. A *coverage-maximal* set of non-overlapping intervals from $$I$$ refers to a set of non-overlapping intervals from $$I$$ whose coverage size is maximal.
 
