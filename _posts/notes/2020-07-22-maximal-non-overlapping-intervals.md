@@ -9,7 +9,7 @@ author: Sori Lee
 
 **Definition.** In what follow, a 'natural number' shall refer to a non-negative integer.
 
-1. Let $$S$$ be a natural number. An *interval* in $$N$$ is a pair $$(i,j)$$ of natural numbers with $$i \leq j < S$$.
+1. Let $$S$$ be a natural number (for H: think of this as the number is words in your given sentence). An *interval* in $$N$$ is a pair $$(i,j)$$ of natural numbers with $$i \leq j < S$$.
 
 For what follow, we fix the $$S$$, and an 'interval' without further elaboration shall refer to an interval in $$S$$.
 
