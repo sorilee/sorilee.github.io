@@ -70,7 +70,7 @@ with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal 
 
 2. For each $$n = S-1, \ldots, 0$$ (in that order), compute an $$M_n$$ using Proposition 1.[^3]
 
-3. Report the $$M_0$$ as the answer.
+3. Report the $$M_0$$ as an answer.
 
 [^2]: This step should be implemented to take $$O(S + \lvert I \rvert)$$ time.
 
