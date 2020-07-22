@@ -78,6 +78,6 @@ with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal 
 
 **Proposition 2.** This algorithm terminates, is correct and runs in $$O(S + \lvert I \rvert)$$ time. ∎
 
-*I thanks colleague J. Yim for careful reading and correcting that the complexity is $$O(S + \lvert I \rvert)$$ instead of $$O(\lvert I \rvert)$$, and colleague H. Noh for the problem and discussions.*
+*I thanks J. Yim for careful reading and correcting that the complexity is $$O(S + \lvert I \rvert)$$ instead of $$O(\lvert I \rvert)$$, and H. Noh for the problem and discussions.*
 
 *Footnotes.*
