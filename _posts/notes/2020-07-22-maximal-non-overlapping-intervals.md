@@ -26,7 +26,7 @@ The *coverage size* of $$X$$ is the cardinality $$\lvert C_X \rvert$$.
 6. Let $$S$$ be a natural number.[^2]
 An interval *in* $$S$$ shall mean an interval $$(i,j)$$ with $$j < S$$.
 
-[^1]: This restriction is of course unnecessary for this definition, but I have asserted it since infinite cases are irrelevant for our purposes.
+[^1]: This restriction is of course unnecessary for this definition itself, but I have asserted it since infinite cases are irrelevant for our purposes.
 
 **Problem.** Given a natural number $$S$$ and a non-empty finite set $$I$$ of *input* intervals in $$S$$, find a coverage-maximal set of non-overlapping intervals from $$I$$.
 
