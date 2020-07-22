@@ -72,11 +72,11 @@ with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a coverage-maximal 
 
 1. For each $$n = 0, \ldots, S-1$$, compute $$I_{=n}$$ say as a list.[^3]
 
-2. For each $$n = S-1, \ldots, 1$$ (in that order), compute $$M_n$$ using the Proposition 1.[^4]
+2. For each $$n = S-1, \ldots, 1$$ (in that order), compute $$M_n$$ using Proposition 1.[^4]
 
 3. Report $$M_0$$ as the answer.
 
-[^3]: This step takes $$O(\lvert I \rvert)$$ time.
+[^3]: This step should be realised to take $$O(S + \lvert I \rvert)$$ time.
 
 [^4]: This step takes $$O(S + \lvert I \rvert)$$ time, since $$\lvert I \rvert = \lvert I_{=0} \rvert + \ldots + \lvert I_{=S-1} \rvert$$.
 
