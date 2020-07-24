@@ -12,6 +12,15 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 
 ## Software or works with code
 
+**depccg.**
+
+- A CCG parser. Product of a 2017 research [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
+  - The paper considers English and Japanese.
+  - Written in Python and C++.
+- Code availability:
+  - Source: <https://github.com/masashi-y/depccg>
+  - PyPI: <https://pypi.org/project/depccg/>
+
 **EasyCCG.**
 
 - A CCG parser. Product of a 2014 research [[Lew14]](https://www.aclweb.org/anthology/D14-1107.pdf).
@@ -45,6 +54,11 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 
 [^3]: Description from <https://github.com/OpenCCG/openccg/blob/master/README.md>.
 
+**NLTK.**
+
+- Uses
+  - According to [someone](https://github.com/masashi-y/depccg#acknowledgement), it's useful for pretty printing for parse derivations.
+
 ## Datasets
 
 <!--Groningen Meaning Bank-->
@@ -61,5 +75,9 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 - [Bal02] Jason Baldridge and Geert-Jan Kruijff. "Coupling CCG and Hybrid Logic Dependency Semantics". ACL 2020. <http://dx.doi.org/10.3115/1073083.1073137>
 
 - [Lew14] Mike Lewis and Mark Steedman. "A* CCG Parsing with a Supertag-factored Model". EMNLP 2014. <http://dx.doi.org/10.3115/v1/D14-1107>
+
+- [Yosh17] Masashi Yoshikawa, Hiroshi Noji, Yuji Matsumoto. "A* CCG Parsing with a Supertag and Dependency Factored Model". ACL 2017. <http://dx.doi.org/10.18653/v1/P17-1026>
+
+
 
 *Footnotes.*
