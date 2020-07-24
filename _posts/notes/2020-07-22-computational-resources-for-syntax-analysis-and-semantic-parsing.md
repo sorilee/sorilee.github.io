@@ -31,7 +31,7 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 - Code availability:
   - Source & binaries: <https://github.com/mikelewis0/easyccg>
     - Last updated on 11 Jul 2015, as of writing.
-  - Pre-trained models:[^1] <https://drive.google.com/#folders/0B7AY6PGZ8lc-NGVOcUFXNU5VWXc>
+  - Pre-trained parameters:[^1] <https://drive.google.com/#folders/0B7AY6PGZ8lc-NGVOcUFXNU5VWXc>
   - A [fork](https://github.com/stormysmoke/easyccg) by [a company](https://quantumsense.ai/). Seems to be an adaptation of EasyCCG for their products[^2].
     - Last updated on 7 Jan 2018, as of writing.
 - Subsequent works:
