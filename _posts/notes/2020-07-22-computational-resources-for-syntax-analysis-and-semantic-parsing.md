@@ -5,7 +5,7 @@ date created: 2020-07-22 KST
 author: Sori Lee
 ---
 
-# Computational resources on syntax analysis and semantic parsing
+# Computational resources for syntax analysis and semantic parsing
 
 Here I list computational resources on [syntax analysis](https://en.wikipedia.org/wiki/Parsing) and [semantic parsing](https://en.wikipedia.org/wiki/Semantic_parsing).
 
