@@ -57,7 +57,7 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 **NLTK.**
 
 - Uses
-  - According to [Masashi Yoshikawa](https://github.com/masashi-y/depccg#acknowledgement), it's useful for pretty printing for parse derivations.
+  - [According to Yoshikawa](https://github.com/masashi-y/depccg#acknowledgement), it's useful for pretty printing for parse derivations.
 
 ## Datasets
 
