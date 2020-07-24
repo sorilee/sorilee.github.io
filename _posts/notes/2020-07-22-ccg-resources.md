@@ -13,7 +13,7 @@ Here I list computational resources on CCG.
 
 **EasyCCG.**
 
-- A CCG parser.
+- A CCG parser. 2014.
 
 - Availability:
   - Source & binaries: <https://github.com/mikelewis0/easyccg>
@@ -36,4 +36,4 @@ Here I list computational resources on CCG.
 
 ## References
 
-- [Lew14] Mike Lewis and Mark Steedman. "A* CCG Parsing with a Supertag-factored Model". EMNLP 2014.
+- [Lew14] Mike Lewis and Mark Steedman. "A* CCG Parsing with a Supertag-factored Model". EMNLP 2014. http://dx.doi.org/10.3115/v1/D14-1107
