@@ -10,7 +10,7 @@ author: Sori Lee
 
 Here I list computational resources on [syntax analysis](https://en.wikipedia.org/wiki/Parsing) and [semantic parsing](https://en.wikipedia.org/wiki/Semantic_parsing).
 
-## Software or works with code
+<!-- ## Software or works with code-->
 
 **ud2ccg.**
 
