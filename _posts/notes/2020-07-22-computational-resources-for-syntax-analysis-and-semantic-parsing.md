@@ -90,6 +90,6 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 - [Yosh17] Masashi Yoshikawa, Hiroshi Noji, Yuji Matsumoto. "A* CCG Parsing with a Supertag and Dependency Factored Model". ACL 2017. <http://dx.doi.org/10.18653/v1/P17-1026>
 
-- [Yosh10] Masashi Yoshikawa, Hiroshi Noji, Koji Mineshima, Daisuke Bekki. "Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation". ACL 2019. http://dx.doi.org/10.18653/v1/P19-1013
+- [Yosh19] Masashi Yoshikawa, Hiroshi Noji, Koji Mineshima, Daisuke Bekki. "Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation". ACL 2019. http://dx.doi.org/10.18653/v1/P19-1013
 
 *Footnotes.*
