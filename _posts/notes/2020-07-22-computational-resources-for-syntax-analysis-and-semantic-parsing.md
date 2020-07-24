@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2020-07-22 KST
+date updated: 2020-07-24 KST
 date created: 2020-07-22 KST
+date: 2020-07-22 KST
 author: Sori Lee
 ---
 
