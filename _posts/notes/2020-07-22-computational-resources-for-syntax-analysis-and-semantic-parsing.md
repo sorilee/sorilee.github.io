@@ -27,7 +27,7 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
     - 
  TBC
 
-[^1]: This URL is provided in <https://github.com/mikelewis0/easyccg/blob/master/README.md>, which is last updated on 20 Aug 2014 as of writing.
+[^1]: This URL is from EasyCCG's [README](https://github.com/mikelewis0/easyccg/blob/master/README.md), which was last updated on 20 Aug 2014 as of writing.
 
 [^2]: Perhaps some chatbot, inferring from a commit message.
 
