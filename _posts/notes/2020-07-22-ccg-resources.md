@@ -15,6 +15,8 @@ Here I list computational resources on CCG.
 
 - A CCG parser. 2014.
 
+- Web demo: [http://4.easy-ccg.appspot.com/](http://4.easy-ccg.appspot.com/do_parse?sentence=Fruit+flies+like+a+banana&nbest=5)
+
 - Availability:
   - Source & binaries: <https://github.com/mikelewis0/easyccg>
   - Pre-trained models:[^1] <https://drive.google.com/#folders/0B7AY6PGZ8lc-NGVOcUFXNU5VWXc>
