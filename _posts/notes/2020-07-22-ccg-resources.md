@@ -36,4 +36,4 @@ Here I list computational resources on CCG.
 
 ## References
 
-- [Lew14] Mike Lewis and Mark Steedman. "A* CCG Parsing with a Supertag-factored Model". EMNLP 2014. http://dx.doi.org/10.3115/v1/D14-1107
+- [Lew14] Mike Lewis and Mark Steedman. "A* CCG Parsing with a Supertag-factored Model". EMNLP 2014. <http://dx.doi.org/10.3115/v1/D14-1107>
