@@ -20,7 +20,8 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 - Resources:
   - Repository: <https://github.com/masashi-y/depccg>
   - PyPI: <https://pypi.org/project/depccg/>
-  - Pre-trained English parsers: listed in depccg's [README](https://github.com/masashi-y/depccg/blob/master/README.md).
+  - Pre-trained English parsers: [listed](https://github.com/masashi-y/depccg/blob/master/README.md#using-a-pretrained-english-parser) in depccg's README.
+  - Pre-trained Japanese parser: [described](https://github.com/masashi-y/depccg/blob/master/README.md#using-a-pretrained-japanese-parser) in depccg's README.
 
 **EasyCCG.**
 
