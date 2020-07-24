@@ -13,7 +13,7 @@ Here I list computational resources on CCG.
 
 **EasyCCG.**
 
-- A CCG parser. Product of a 2014 research.
+- A CCG parser. Product of a 2014 research [[Lew14]](https://www.aclweb.org/anthology/D14-1107.pdf).
   - Written in Java.
 - Web demo: [http://4.easy-ccg.appspot.com/](http://4.easy-ccg.appspot.com/do_parse?sentence=Fruit+flies+like+a+banana&nbest=5)
 - Availability:
@@ -22,7 +22,7 @@ Here I list computational resources on CCG.
   - Pre-trained models:[^1] <https://drive.google.com/#folders/0B7AY6PGZ8lc-NGVOcUFXNU5VWXc>
   - A [fork](https://github.com/stormysmoke/easyccg) by [QuantumSense](https://quantumsense.ai/). Seems to be an adaptation of EasyCCG for their products[^2].
     - Last updated on 7 Jan 2018, as of writing.
-- Underlying paper: [Lew14]
+- Subsequent works: TBC
 
 [^1]: This URL is provided in <https://github.com/mikelewis0/easyccg/blob/master/README.md>, which is last updated on 20 Aug 2014 as of writing.
 
@@ -35,6 +35,8 @@ Here I list computational resources on CCG.
 ## Datasets
 
 <!--Groningen Meaning Bank-->
+
+<!-- https://esslli2016.unibz.it/wp-content/uploads/2015/10/MeaningBanking.pdf -->
 
 ## Papers
 
