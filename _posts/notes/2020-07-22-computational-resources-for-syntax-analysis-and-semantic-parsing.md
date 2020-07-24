@@ -14,7 +14,7 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 
 **depccg.**
 
-- A CCG parser. Product of a 2017 research [[Yosh17]](https://www.aclweb.org/anthology/P19-1013.pdf).
+- A CCG parser. Product of a 2017 research [[Yosh17]](https://www.aclweb.org/anthology/P17-1026.pdf).
   - The paper considers English and Japanese.
   - Written in Python and C++11.
 - Resources:
