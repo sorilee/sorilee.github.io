@@ -5,7 +5,7 @@ date created: 2020-07-17 KST
 author: Sori Lee
 ---
 
-# The lambda calculus: how authors define it
+# The lambda calculus: how people define it
 
 <!--
 ### A note on its origin: Church 1932 vs Church 1936

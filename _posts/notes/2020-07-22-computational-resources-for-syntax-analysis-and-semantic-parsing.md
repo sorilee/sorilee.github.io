@@ -68,8 +68,8 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 **NLTK.**
 
-- Uses
-  - [According to Yoshikawa](https://github.com/masashi-y/depccg#acknowledgement), it's useful for pretty printing for parse derivations.
+- Uses:
+  - [According to Yoshikawa](https://github.com/masashi-y/depccg#acknowledgement), it's useful for pretty printing parse derivations.
 
 ## Datasets
 
