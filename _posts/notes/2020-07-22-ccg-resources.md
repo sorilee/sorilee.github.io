@@ -7,7 +7,7 @@ author: Sori Lee
 
 # CCG computational resources
 
-Here are some computational resources on CCG parsing.
+Here I list computational resources on CCG.
 
 ## Software
 
