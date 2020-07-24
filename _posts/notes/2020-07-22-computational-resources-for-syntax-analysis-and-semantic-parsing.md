@@ -14,7 +14,7 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 
 **depccg.**
 
-- A CCG parser. Product of a 2017 research [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
+- A CCG parser. Product of a 2017 research [[Yosh17]](https://www.aclweb.org/anthology/P19-1013.pdf).
   - The paper considers English and Japanese.
   - Written in Python and C++11.
 - Code availability:
@@ -77,7 +77,5 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 - [Lew14] Mike Lewis and Mark Steedman. "A* CCG Parsing with a Supertag-factored Model". EMNLP 2014. <http://dx.doi.org/10.3115/v1/D14-1107>
 
 - [Yosh17] Masashi Yoshikawa, Hiroshi Noji, Yuji Matsumoto. "A* CCG Parsing with a Supertag and Dependency Factored Model". ACL 2017. <http://dx.doi.org/10.18653/v1/P17-1026>
-
-
 
 *Footnotes.*
