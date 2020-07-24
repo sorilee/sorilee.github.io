@@ -16,7 +16,7 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 
 - A CCG parser. Product of a 2017 research [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
   - The paper considers English and Japanese.
-  - Written in Python and C++.
+  - Written in Python and C++11.
 - Code availability:
   - Source: <https://github.com/masashi-y/depccg>
   - PyPI: <https://pypi.org/project/depccg/>
