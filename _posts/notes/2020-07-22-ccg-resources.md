@@ -19,7 +19,7 @@ Here are some computational resources on CCG parsing.
   - Source & binaries: <https://github.com/mikelewis0/easyccg>
   - Pre-trained models:[^1] <https://drive.google.com/#folders/0B7AY6PGZ8lc-NGVOcUFXNU5VWXc>
 
-[^1]: The URL is provided in https://github.com/mikelewis0/easyccg/blob/master/README.md.
+[^1]: This URL is given in https://github.com/mikelewis0/easyccg/blob/master/README.md.
 
 - Underlying paper: [Lew14]
 
