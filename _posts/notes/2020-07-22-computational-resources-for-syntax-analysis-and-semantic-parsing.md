@@ -29,10 +29,17 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 **CVT (2018).**
 
-- [[Cla18]](https://arxiv.org/pdf/1809.08370.pdf). Currently leading the 'CCG Supertagging on CCGBank' leaderboard [pwcCST]. What it is, from its abstract:
+- [[Cla18]](https://arxiv.org/pdf/1809.08370.pdf). What it is, from its abstract:
 
   > We therefore propose Cross-View Training (CVT), a semi-supervised learning algorithm that improves the representations of a Bi-LSTM sentence encoder using a mix of labeled and unlabeled data.
 
+  Why on this list:
+
+  1. It's currently topping the 'CCG Supertagging on CCGBank' leaderboard [pwcCSC].
+
+  2. Also currently leading the 'Depedency Parsing on Penn Treebank' benchmark [pwcDPPT] in unlabelled attachment score (UAS) and 'labeled attachment score (LAS).
+
+- 
 
 **depccg (2017).**
 
@@ -108,7 +115,7 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 ### Other works
 
-- [Søg16]. Scores lower than CVT and 'LSTM CCG Parsing' above but still competitively on 'CCG Supertagging on CCGBank' [pwcCST].
+- [Søg16]. Scores lower than CVT and 'LSTM CCG Parsing' above but still competitively on 'CCG Supertagging on CCGBank' [pwcCSC].
 
 - 
 
@@ -147,6 +154,8 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 - [Yosh19] Masashi Yoshikawa, Hiroshi Noji, Koji Mineshima, Daisuke Bekki. "Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation". ACL 2019. http://dx.doi.org/10.18653/v1/P19-1013
 
-- [pwcCST] Models comparisons for *CCG Supertagging on CCGBank*. <https://paperswithcode.com/sota/ccg-supertagging-on-ccgbank>
+- [pwcCSC] Leaderboard for *CCG Supertagging on CCGBank*. <https://paperswithcode.com/sota/ccg-supertagging-on-ccgbank>
+
+- [pwcDPPT] Leaderboard for *Dependency Parsing on Penn Treebank*. <https://paperswithcode.com/sota/dependency-parsing-on-penn-treebank>
 
 *Footnotes.*
