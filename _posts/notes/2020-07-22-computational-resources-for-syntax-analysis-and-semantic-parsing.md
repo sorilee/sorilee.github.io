@@ -81,18 +81,19 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
   > OpenCCG is a comprehensive system for writing, editing, and running grammars in the Combinatory Categorial Grammar (CCG) framework.
 
+  Characteristics:
   - Written mainly in Java.
-  
   - Offers itself as a Java library (I haven't been able to find a documentation or tutorial on its API yet though).
 
 - Resources:
-  - Source & binaries: https://github.com/OpenCCG/openccg
+  - Source & binaries: <https://github.com/OpenCCG/openccg>
     - Last updated on 17 Jul 2019, as of writing.
 
 - Documentation:
   - Website: <http://openccg.sourceforge.net/>
     - *Caution.* The project itself has moved to GitHub.
   - Wiki: <http://www.utcompling.com/wiki/openccg>
+  - An external [tutorial](https://davehowcroft.com/post/getting-started-with-openccg/) by David Howcroft, dated 5 Jul 2017.
 
 [^3]: *Hybrid logic dependency semantics* refers to the work [Bal02].
 
