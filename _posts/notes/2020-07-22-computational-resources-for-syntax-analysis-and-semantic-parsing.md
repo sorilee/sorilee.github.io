@@ -12,9 +12,11 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 
 <!-- ## Software or works with code-->
 
+<!--
 **Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning.**
 
 - [[Yosh18]](https://www.aclweb.org/anthology/N18-2065.pdf)
+-->
 
 **ud2ccg.**
 
