@@ -12,13 +12,7 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 
 <!-- ## Software or works with code-->
 
-<!--
-**Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning.**
-
-- [[Yosh18]](https://www.aclweb.org/anthology/N18-2065.pdf)
--->
-
-**ud2ccg.**
+**ud2ccg (2019).**
 
 - A domain adaptation method for Combinatory Categorial Grammar (CCG)
 parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
@@ -27,7 +21,20 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
   - Repository: <https://github.com/masashi-y/ud2ccg>
     - Last updated on 10 Jun 2019, as of writing.
 
-**depccg.**
+<!--
+**Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning.**
+
+- [[Yosh18]](https://www.aclweb.org/anthology/N18-2065.pdf)
+-->
+
+**CVT (2018).**
+
+- [[Cla18]](https://arxiv.org/pdf/1809.08370.pdf). Currently leading the 'CCG Supertagging on CCGBank' leaderboard [pwcCST]. What it is, from its abstract:
+
+  > We therefore propose Cross-View Training (CVT), a semi-supervised learning algorithm that improves the representations of a Bi-LSTM sentence encoder using a mix of labeled and unlabeled data.
+
+
+**depccg (2017).**
 
 - A CCG parser. Product of a 2017 research [[Yosh17]](https://www.aclweb.org/anthology/P17-1026.pdf).
   - The paper considers English and Japanese.
@@ -38,6 +45,8 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
   - PyPI: <https://pypi.org/project/depccg/>
   - Pre-trained English parsers: [listed](https://github.com/masashi-y/depccg/blob/master/README.md#using-a-pretrained-english-parser) in depccg's README.
   - Pre-trained Japanese parser: [described](https://github.com/masashi-y/depccg/blob/master/README.md#using-a-pretrained-japanese-parser) in depccg's README.
+
+**LSTM CCG Parsing.
 
 **EasySRL (2015).**
 
@@ -97,6 +106,14 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 [^3]: *Hybrid logic dependency semantics* refers to the work [Bal02].
 
+### Other works
+
+- [Søg16]. Scores lower than CVT and 'LSTM CCG Parsing' above but still competitively on 'CCG Supertagging on CCGBank' [pwcCST].
+
+- 
+
+
+
 **NLTK.**
 
 - Uses:
@@ -116,14 +133,20 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 - [Bal02] Jason Baldridge and Geert-Jan Kruijff. "Coupling CCG and Hybrid Logic Dependency Semantics". ACL 2002. <http://dx.doi.org/10.3115/1073083.1073137>
 
+- [Cla18] Kevin Clark, Thang Luong, Christopher D. Manning, Quoc V. Le. "Semi-Supervised Sequence Modeling with Cross-View Training". EMNLP 2018. <https://arxiv.org/abs/1809.08370>
+
 - [Lew15] Mike Lewis, Luheng He and Luke Zettlemoyer. "Joint A* CCG Parsing and Semantic Role Labelling". EMNLP 2015. <http://dx.doi.org/10.18653/v1/D15-1169>
 
 - [Lew14] Mike Lewis and Mark Steedman. "A* CCG Parsing with a Supertag-factored Model". EMNLP 2014. <http://dx.doi.org/10.3115/v1/D14-1107>
+
+- [Søg16] Anders Søgaard and Yoav Goldberg. "Deep multi-task learning with low level tasks supervised at lower layers". ACL 2016. <http://dx.doi.org/10.18653/v1/P16-2038>
 
 - [Yosh17] Masashi Yoshikawa, Hiroshi Noji, Yuji Matsumoto. "A* CCG Parsing with a Supertag and Dependency Factored Model". ACL 2017. <http://dx.doi.org/10.18653/v1/P17-1026>
 
 - [Yosh18] Masashi Yoshikawa, Koji Mineshima, Hiroshi Noji, Daisuke Bekki. "Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning". NAACL 2018. <http://dx.doi.org/10.18653/v1/N18-2065>
 
 - [Yosh19] Masashi Yoshikawa, Hiroshi Noji, Koji Mineshima, Daisuke Bekki. "Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation". ACL 2019. http://dx.doi.org/10.18653/v1/P19-1013
+
+- [pwcCST] Models comparisons for *CCG Supertagging on CCGBank*. <https://paperswithcode.com/sota/ccg-supertagging-on-ccgbank>
 
 *Footnotes.*
