@@ -12,6 +12,10 @@ Here I list computational resources on [syntax analysis](https://en.wikipedia.or
 
 <!-- ## Software or works with code-->
 
+**Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning.**
+
+- [[Yosh18]](https://www.aclweb.org/anthology/N18-2065.pdf)
+
 **ud2ccg.**
 
 - A domain adaptation method for Combinatory Categorial Grammar (CCG)
@@ -20,6 +24,10 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 - Resources:
   - Repository: <https://github.com/masashi-y/ud2ccg>
     - Last updated on 10 Jun 2019, as of writing.
+
+****
+
+- Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning
 
 **depccg.**
 
@@ -81,14 +89,15 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 - Some Yale lecture slides on CCG. <http://www.cs.yale.edu/homes/radev/nlpclass/slides2017/264.pdf>
 
-
 ## References
 
-- [Bal02] Jason Baldridge and Geert-Jan Kruijff. "Coupling CCG and Hybrid Logic Dependency Semantics". ACL 2020. <http://dx.doi.org/10.3115/1073083.1073137>
+- [Bal02] Jason Baldridge and Geert-Jan Kruijff. "Coupling CCG and Hybrid Logic Dependency Semantics". ACL 2002. <http://dx.doi.org/10.3115/1073083.1073137>
 
 - [Lew14] Mike Lewis and Mark Steedman. "A* CCG Parsing with a Supertag-factored Model". EMNLP 2014. <http://dx.doi.org/10.3115/v1/D14-1107>
 
 - [Yosh17] Masashi Yoshikawa, Hiroshi Noji, Yuji Matsumoto. "A* CCG Parsing with a Supertag and Dependency Factored Model". ACL 2017. <http://dx.doi.org/10.18653/v1/P17-1026>
+
+- [Yosh18] Masashi Yoshikawa, Koji Mineshima, Hiroshi Noji, Daisuke Bekki. "Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning". NAACL 2018. <http://dx.doi.org/10.18653/v1/N18-2065>
 
 - [Yosh19] Masashi Yoshikawa, Hiroshi Noji, Koji Mineshima, Daisuke Bekki. "Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation". ACL 2019. http://dx.doi.org/10.18653/v1/P19-1013
 
