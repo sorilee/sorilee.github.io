@@ -41,10 +41,17 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 **EasySRL (2015).**
 
-- A [semantic role labelling](https://en.wikipedia.org/wiki/Semantic_role_labeling) model based on *joint* CCG syntactic and semantic parsing. [[Lew15]](https://www.aclweb.org/anthology/D15-1169.pdf)
+- A [semantic role labelling](https://en.wikipedia.org/wiki/Semantic_role_labeling) (SRL) model based on *joint* CCG syntactic and semantic parsing. [[Lew15]](https://www.aclweb.org/anthology/D15-1169.pdf)
   - Proposes, in particular, an [A* algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) for CCG parsing, faster than CKY with no loss in accuracy.[^4]
+  - Achieved state-of-the-art SRL results as a non-ensemble model, which previous *joint* syntactic-semantic approaches seem to have failed.[^5]
+  - Implementation written in Java.
+- Code availability:
+  - Source repository: <https://github.com/uwnlp/EasySRL>
+  - Provided pre-trained models: see the repository's [README](https://github.com/uwnlp/EasySRL/blob/master/README.md).
 
-[^4]: [Lew15], at the end of *1. Introduction*.
+[^4]: [Lew15], the end of *1. Introduction*.
+
+[^5]: [Lew15], the abstract and the beginning of *1. Introduction*.
 
 **EasyCCG (2014).**
 
