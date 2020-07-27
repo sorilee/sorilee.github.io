@@ -13,7 +13,7 @@ author: Sori Lee
 
 1. An *interval* is a pair $$(i,j)$$ of non-negative integers such that $$i \leq j$$.
 
-2. Intervals $$(i,j)$$ and $$(k,l)$$ are *disjoint* if $$[i,j] \cap [k,l] = \emptyset$$.
+2. Intervals $$(i,j)$$ and $$(k,l)$$ are *disjoint* if $$\{i, \ldots, j\} \cap \{k, \ldots, l\} = \emptyset$$.
 
 3. A *set of disjoint intervals* means a set of pairwise disjoint intervals.
 
@@ -34,7 +34,7 @@ An interval *below* $$S$$ means an interval $$(i,j)$$ with $$j < S$$.
 
 [^4]: I assert this so that there is at least one maximally covering set of disjoint intervals from $$I$$, as that simplifies the formulations of both the problem and the algorithm.
 
-Before giving the algorithm, I will first summarise the idea behind it in a proposition.
+Before giving an algorithm for this problem, I will first summarise the idea behind it in a proposition.
 
 Some notations will be useful.
 Let $$n \in \mathbf{Z}_{\geq 0}$$.
