@@ -76,7 +76,7 @@ with $$(n,j) \in I_{=n}$$ whose coverage size is maximal, is a maximally coverin
 
 [^2]: This step should be implemented to take $$O(S + \lvert I \rvert)$$ time.
 
-[^3]: This step takes $$O(S + \lvert I \rvert)$$ time, since $$\lvert I \rvert = \lvert I_{=0} \rvert + \ldots + \lvert I_{=S-1} \rvert$$.
+[^3]: This step takes $$O(S + \lvert I \rvert)$$ time, since $$\lvert I \rvert = \lvert I_{=S-1} \rvert + \ldots + \lvert I_{=0} \rvert$$.
 
 **Proposition 2.** This algorithm terminates, is correct and runs in $$O(S + \lvert I \rvert)$$ time. ∎
 
