@@ -46,9 +46,9 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 [^4]: [Lew15], at the end of *1. Introduction*.
 
-**EasyCCG.**
+**EasyCCG (2014).**
 
-- A CCG parser. Product of a 2014 research [[Lew14]](https://www.aclweb.org/anthology/D14-1107.pdf).
+- A CCG parser. [[Lew14]](https://www.aclweb.org/anthology/D14-1107.pdf)
   - Written in Java.
 - Web demo: [http://4.easy-ccg.appspot.com/](http://4.easy-ccg.appspot.com/do_parse?sentence=Fruit+flies+like+a+banana&nbest=5)
 - Code availability:
