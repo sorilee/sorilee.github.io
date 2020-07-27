@@ -109,7 +109,7 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
   - Website: <http://openccg.sourceforge.net/>
     - *Caution.* The project itself has moved to GitHub.
   - Wiki: <http://www.utcompling.com/wiki/openccg>
-  - An external [tutorial](https://davehowcroft.com/post/getting-started-with-openccg/) by David Howcroft, dated 5 Jul 2017.
+  - An external [tutorial](https://davehowcroft.com/post/getting-started-with-openccg/), dated 5 Jul 2017.
 
 [^3]: *Hybrid logic dependency semantics* refers to the work [Bal02].
 
