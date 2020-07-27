@@ -28,7 +28,7 @@ The *coverage size* of $$X$$ is the cardinality $$\lvert C_X \rvert$$.
 6. Let $$S$$ be a non-negative integer.
 An interval *below* $$S$$ means an interval $$(i,j)$$ with $$j < S$$.
 
-[^1]: These finiteness restrictions are of course unnecessary for the definitions themselves, but I assert them since infinite cases are irrelevant for our purposes.
+[^1]: These finiteness restrictions are of course unnecessary for the definitions themselves, yet I assert them since infinite cases are irrelevant for our purposes.
 
 **Problem.** Given a non-negative integer $$S$$ and a non-empty[^4] finite set $$I$$ of *input* intervals below $$S$$, find a maximally covering set of disjoint intervals from $$I$$.
 
