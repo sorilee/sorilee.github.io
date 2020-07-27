@@ -39,6 +39,13 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
   - Pre-trained English parsers: [listed](https://github.com/masashi-y/depccg/blob/master/README.md#using-a-pretrained-english-parser) in depccg's README.
   - Pre-trained Japanese parser: [described](https://github.com/masashi-y/depccg/blob/master/README.md#using-a-pretrained-japanese-parser) in depccg's README.
 
+**EasySRL.**
+
+- A [semantic role labelling](https://en.wikipedia.org/wiki/Semantic_role_labeling) model based on *joint* CCG syntactic and semantic parsing. A 2015 work [[Lew15]](https://www.aclweb.org/anthology/D15-1169.pdf).
+  - Proposes, in particular, an [A* algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) for CCG parsing, faster than CKY with no loss in accuracy.[^4]
+
+[^4]: [Lew15], at the end of *1. Introduction*.
+
 **EasyCCG.**
 
 - A CCG parser. Product of a 2014 research [[Lew14]](https://www.aclweb.org/anthology/D14-1107.pdf).
@@ -89,6 +96,8 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 ## References
 
 - [Bal02] Jason Baldridge and Geert-Jan Kruijff. "Coupling CCG and Hybrid Logic Dependency Semantics". ACL 2002. <http://dx.doi.org/10.3115/1073083.1073137>
+
+- [Lew15] Mike Lewis, Luheng He and Luke Zettlemoyer. "Joint A* CCG Parsing and Semantic Role Labelling". EMNLP 2015. <http://dx.doi.org/10.18653/v1/D15-1169>
 
 - [Lew14] Mike Lewis and Mark Steedman. "A* CCG Parsing with a Supertag-factored Model". EMNLP 2014. <http://dx.doi.org/10.3115/v1/D14-1107>
 
