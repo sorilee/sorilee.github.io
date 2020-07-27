@@ -144,6 +144,35 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 - Deep-Syntactic Parsing (COLING 2014).
 
+- C&C Parser
+
+- CCGBank
+
+- Gronningen Tree Bank.
+  - See also <https://developer.ibm.com/exchanges/data/all/groningen-meaning-bank/>
+
+- ccg2lambda
+
+- StatCCG
+
+- Check up <https://aclweb.org/aclwiki/Combinatory_Categorial_Grammar#StatCCG>.
+
+- Check out <https://mynlp.is.s.u-tokyo.ac.jp/en/projects>.
+
+- Check out <https://esslli2016.unibz.it/wp-content/uploads/2015/10/MeaningBanking.pdf>.
+
+- Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning. NAACL 2018. Yoshikawa *et al.*
+
+- Parsing Combinatory Categorial Grammar via Planning in Answer Set Programming. In *Correct Reasoning*, 2012.
+
+- Translate Japanese into Formal Languages with an Enhanced Generalization Algorithm. SAI 2020. Kazuaki Kashihara.
+
+- Flexible Combinatory Categorial Grammar Parsing Using the CYK Algorithm and Answer Set Programming. LPNMR 2013.
+
+- Korean Combinatory Categorial Grammar and Statistical Parsing. 2002.
+
+- (Old) Korean CCG papers.
+
 ## References
 
 - [Bal02] Jason Baldridge and Geert-Jan Kruijff. "Coupling CCG and Hybrid Logic Dependency Semantics". ACL 2002. <http://dx.doi.org/10.3115/1073083.1073137>
