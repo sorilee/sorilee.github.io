@@ -37,9 +37,9 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
   1. It's currently topping the 'CCG Supertagging on CCGBank' leaderboard [pwcCSC].
 
-  2. Also currently leading the 'Depedency Parsing on Penn Treebank' benchmark [pwcDPPT] in unlabelled attachment score (UAS) and 'labeled attachment score (LAS).
+  2. Also currently leading the 'Depedency Parsing on Penn Treebank' benchmark [pwcDPPT] in unlabelled attachment score (UAS) and labeled attachment score (LAS).
 
-- 
+- Computational resources: <https://github.com/tensorflow/models/tree/master/research/cvt_text>
 
 **depccg (2017).**
 
@@ -117,14 +117,12 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 - [Søg16]. Scores lower than CVT and 'LSTM CCG Parsing' above but still competitively on 'CCG Supertagging on CCGBank' [pwcCSC].
 
-- 
-
-
-
 **NLTK.**
 
 - Uses:
   - [According to Yoshikawa](https://github.com/masashi-y/depccg#acknowledgement), it's useful for pretty printing parse derivations.
+
+- TBC (<nltk.org>).
 
 ## Datasets
 
@@ -135,6 +133,16 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 ## Misc. resources
 
 - Some Yale lecture slides on CCG. <http://www.cs.yale.edu/homes/radev/nlpclass/slides2017/264.pdf>
+
+## TODO
+
+- LSTM CCG Parsing (NAACL 2016). It's DL CCG Parsing, and also #2 on [pwcCSC].
+
+- Hierarchically-Refined Label Attention Network for Sequence Labeling (EMNLP 2019). #3 on [pwcCSC].
+
+- Supertagging With LSTMs (NAACL 2016). #4 on [pwcCSC].
+
+- Deep-Syntactic Parsing (COLING 2014).
 
 ## References
 
@@ -152,7 +160,7 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 
 - [Yosh18] Masashi Yoshikawa, Koji Mineshima, Hiroshi Noji, Daisuke Bekki. "Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning". NAACL 2018. <http://dx.doi.org/10.18653/v1/N18-2065>
 
-- [Yosh19] Masashi Yoshikawa, Hiroshi Noji, Koji Mineshima, Daisuke Bekki. "Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation". ACL 2019. http://dx.doi.org/10.18653/v1/P19-1013
+- [Yosh19] Masashi Yoshikawa, Hiroshi Noji, Koji Mineshima, Daisuke Bekki. "Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation". ACL 2019. <http://dx.doi.org/10.18653/v1/P19-1013>
 
 - [pwcCSC] Leaderboard for *CCG Supertagging on CCGBank*. <https://paperswithcode.com/sota/ccg-supertagging-on-ccgbank>
 
