@@ -39,9 +39,9 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
   - Pre-trained English parsers: [listed](https://github.com/masashi-y/depccg/blob/master/README.md#using-a-pretrained-english-parser) in depccg's README.
   - Pre-trained Japanese parser: [described](https://github.com/masashi-y/depccg/blob/master/README.md#using-a-pretrained-japanese-parser) in depccg's README.
 
-**EasySRL.**
+**EasySRL (2015).**
 
-- A [semantic role labelling](https://en.wikipedia.org/wiki/Semantic_role_labeling) model based on *joint* CCG syntactic and semantic parsing. A 2015 work [[Lew15]](https://www.aclweb.org/anthology/D15-1169.pdf).
+- A [semantic role labelling](https://en.wikipedia.org/wiki/Semantic_role_labeling) model based on *joint* CCG syntactic and semantic parsing. [[Lew15]](https://www.aclweb.org/anthology/D15-1169.pdf)
   - Proposes, in particular, an [A* algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) for CCG parsing, faster than CKY with no loss in accuracy.[^4]
 
 [^4]: [Lew15], at the end of *1. Introduction*.
