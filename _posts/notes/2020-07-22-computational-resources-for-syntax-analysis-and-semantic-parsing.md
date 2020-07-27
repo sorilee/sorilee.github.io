@@ -74,10 +74,9 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 **OpenCCG.**
 
 - From its GitHub [README](https://github.com/OpenCCG/openccg/blob/master/README.md):
-  > OpenCCG is a system for parsing and generating text using combinatory categorial grammar for syntax and hybrid logic dependency semantics for, well, the semantic representation.
-
+    > OpenCCG is a system for parsing and generating text using combinatory categorial grammar for syntax and hybrid logic dependency semantics for, well, the semantic representation.
   From [VisCCG Tutorial](http://www.utcompling.com/wiki/openccg/visccg-tutorial):
-  > OpenCCG is a comprehensive system for writing, editing, and running grammars in the Combinatory Categorial Grammar (CCG) framework.
+    > OpenCCG is a comprehensive system for writing, editing, and running grammars in the Combinatory Categorial Grammar (CCG) framework.
   - 'Hybrid logic dependency semantics' refers to the work [Bal02].
 
 - Code availability:
