@@ -25,10 +25,6 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
   - Repository: <https://github.com/masashi-y/ud2ccg>
     - Last updated on 10 Jun 2019, as of writing.
 
-****
-
-- Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning
-
 **depccg.**
 
 - A CCG parser. Product of a 2017 research [[Yosh17]](https://www.aclweb.org/anthology/P17-1026.pdf).
@@ -50,11 +46,10 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
   - Source & binaries: <https://github.com/mikelewis0/easyccg>
     - Last updated on 11 Jul 2015, as of writing.
   - Pre-trained parameters:[^1] <https://drive.google.com/#folders/0B7AY6PGZ8lc-NGVOcUFXNU5VWXc>
-  - A [fork](https://github.com/stormysmoke/easyccg) by [a company](https://quantumsense.ai/). Seems to be an adaptation of EasyCCG for their products[^2].
+  - A [fork](https://github.com/stormysmoke/easyccg) by [a company](https://quantumsense.ai/). Seems to be an adaptation of EasyCCG for its products[^2].
     - Last updated on 7 Jan 2018, as of writing.
 - Subsequent works:
-    - 
- TBC
+    - TBC
 
 [^1]: This URL is from EasyCCG's [README](https://github.com/mikelewis0/easyccg/blob/master/README.md), which was last updated on 20 Aug 2014 as of writing.
 
