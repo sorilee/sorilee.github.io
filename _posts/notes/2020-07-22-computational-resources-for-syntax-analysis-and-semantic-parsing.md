@@ -53,6 +53,16 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
   - Pre-trained English parsers: [listed](https://github.com/masashi-y/depccg/blob/master/README.md#using-a-pretrained-english-parser) in depccg's README.
   - Pre-trained Japanese parser: [described](https://github.com/masashi-y/depccg/blob/master/README.md#using-a-pretrained-japanese-parser) in depccg's README.
 
+**ccg2lambda (2016).**
+
+- [Mar16]
+
+**Mineshima *et al.***
+
+The strategy we use to build a semantic lexicon is similar to that of Bos et al. (2004). A lexical entry for each open word class consists of a syntactic category in CCG (possibly with syntactic features) and a semantic representation encoded as a λ-term. Fig. 1 gives an example.1 For a limited number of closed words such as logical or functional expressions, a λ-term is directly assigned to a surface form (see Fig. 2). The output formula is obtained by combining each λ-term in accordance with meaning composition rules and then by applying β-conversion.
+
+- [Min15]
+
 **EasySRL (2015).**
 
 - A [semantic role labelling](https://en.wikipedia.org/wiki/Semantic_role_labeling) (SRL) model based on *joint* CCG syntactic and semantic parsing. [[Lew15]](https://www.aclweb.org/anthology/D15-1169.pdf)
@@ -149,8 +159,6 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 - Gronningen Tree Bank.
   - See also <https://developer.ibm.com/exchanges/data/all/groningen-meaning-bank/>
 
-- ccg2lambda
-
 - StatCCG
 
 - Check up <https://aclweb.org/aclwiki/Combinatory_Categorial_Grammar#StatCCG>.
@@ -180,6 +188,10 @@ parsing [[Yosh19]](https://www.aclweb.org/anthology/P19-1013.pdf).
 - [Lew15] Mike Lewis, Luheng He and Luke Zettlemoyer. "Joint A* CCG Parsing and Semantic Role Labelling". EMNLP 2015. <http://dx.doi.org/10.18653/v1/D15-1169>
 
 - [Lew14] Mike Lewis and Mark Steedman. "A* CCG Parsing with a Supertag-factored Model". EMNLP 2014. <http://dx.doi.org/10.3115/v1/D14-1107>
+
+- [Mar16] Pascual Martínez-Gómez, Koji Mineshima, Yusuke Miyao, Daisuke Bekki. "ccg2lambda: A Compositional Semantics System". ACL 2016. <http://dx.doi.org/10.18653/v1/P16-4015>
+
+- [Min15] Koji Mineshima, Pascual Martínez-Gómez, Yusuke Miyao, Daisuke Bekki. "Higher-order logical inference with compositional semantics". EMNLP 2015. <http://dx.doi.org/10.18653/v1/D15-1244>
 
 - [Søg16] Anders Søgaard and Yoav Goldberg. "Deep multi-task learning with low level tasks supervised at lower layers". ACL 2016. <http://dx.doi.org/10.18653/v1/P16-2038>
 
