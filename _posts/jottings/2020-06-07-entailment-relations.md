@@ -2,7 +2,7 @@
 layout: post
 date: 2020-06-07 04:30 KST
 author: Sori Lee
-permalink: /memos/2020/06/07/entailment-relations.html
+permalink: /jottings/2020/06/07/entailment-relations.html
 ---
 
 # Entailment relations
