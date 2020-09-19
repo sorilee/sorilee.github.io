@@ -49,12 +49,15 @@ titles_from_headings:
   strip_title: true # otherwise mimnima / minimal-mistakes@4.19.2 duplicates the title 
   collections: true # otherwise the title inferred from a post's filename takes precedence
 
-#remote_theme: "mmistakes/minimal-mistakes@4.19.2"
+## Theme
 
 #theme: minima
 
+#remote_theme: "mmistakes/minimal-mistakes@4.19.2"
 #remote_theme: "jekyll/minima@v2.5.1"
 remote_theme: "jekyll/minima@5283ae1"
 
 minima:
   skin: classic
+
+# Entries added by myself
