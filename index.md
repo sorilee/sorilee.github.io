@@ -2,4 +2,4 @@
 layout: default
 ---
 
-Contact: sori24 at gmail.
+Contact: sori24 at Gmail.
